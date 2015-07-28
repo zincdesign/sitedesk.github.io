@@ -1,14 +1,37 @@
+url: https://sitedesk.github.io
+baseurl: /agency-jekyll-theme/
+
 # Site settings
-title: Your awesome title
+title: Sitedesk
 email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: fed136
+  secondary: fec503
+  secondary-dark: 333
+
+# Team names, titles and social links
+people:
+  - name: Carl Green
+    pic: 1
+    position: Head of Engineering Services, Wyre Council
+    quote: “We were initially worried about how to make best use of the data with all of the different tools that were being used on the programme. It quickly became apparent that we needed to identify a simple-to-use tool that enables us to use and capture information throughout the construction and operational processes that ideally can be used in the field. We managed to find a tool called Sitedesk …”
+  - name: Carl Green
+    pic: 2
+    position: Head of Engineering Services, Wyre Council
+    quote: “We were initially worried about how to make best use of the data with all of the different tools that were being used on the programme. It quickly became apparent that we needed to identify a simple-to-use tool that enables us to use and capture information throughout the construction and operational processes that ideally can be used in the field. We managed to find a tool called Sitedesk …”
+  - name: Carl Green
+    pic: 3
+    position: Head of Engineering Services, Wyre Council
+    quote: “We were initially worried about how to make best use of the data with all of the different tools that were being used on the programme. It quickly became apparent that we needed to identify a simple-to-use tool that enables us to use and capture information throughout the construction and operational processes that ideally can be used in the field. We managed to find a tool called Sitedesk …”
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
 
 # Build settings
 markdown: kramdown
+permalink: pretty
