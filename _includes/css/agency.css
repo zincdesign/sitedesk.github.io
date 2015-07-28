@@ -886,3 +886,11 @@ body {
   -ms-filter: grayscale(1);
 }
 
+.contact-tel {
+    font-size:30px;
+    color: #fff
+}
+
+@media only screen and (max-width: 500px) {
+    .contact-tel { font-size:12px }
+}
