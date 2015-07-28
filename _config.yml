@@ -3,7 +3,7 @@ url: https://sitedesk.github.io
 # Site settings
 title: Sitedesk
 email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Sitedesk is a BIM software tool helping you connect and manage your traditional construction project and BIM project data and documents"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -19,6 +19,10 @@ people:
     pic: 1
     position: Head of Engineering Services, Wyre Council
     quote: “We were initially worried about how to make best use of the data with all of the different tools that were being used on the programme. It quickly became apparent that we needed to identify a simple-to-use tool that enables us to use and capture information throughout the construction and operational processes that ideally can be used in the field. We managed to find a tool called Sitedesk …”
+  - name: Peter Trebilcock
+    pic: 2
+    position: Design & BIM Programme Director, Balfour Beatty Construction Services UK
+    quote: “The use of field devices is playing a significant role in delivering better management of data and increased business efficiency across our business. We are currently deploying them across a portfolio of education and commercial projects”
 
 # Postal address (add as many lines as necessary)
 address:

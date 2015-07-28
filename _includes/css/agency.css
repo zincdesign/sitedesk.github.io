@@ -184,6 +184,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
+    width:154px;
+    height:30px;
+    background-image:url(../img/sitedesk-logo-small.png);
+    background-repeat:no-repeat;
+    margin:15px 0 0 10px; /*better position*/
     color: #{{ site.color.primary }};
 }
 
@@ -248,6 +253,10 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
+        width:307px;
+        height:60px;
+        background-image:url(../img/sitedesk-logo.png);
+        background-repeat:no-repeat;
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
@@ -267,12 +276,19 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+
 header {
     text-align: center;
-    color: #3f3e3e;
+    color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.png);
-    background-repeat: repeat;
+    background-image:
+    linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+    ), url(../img/header-bg5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 header .intro-text {
@@ -284,7 +300,7 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
-    font-style: italic;
+    /*font-style: italic;*/
     line-height: 22px;
 }
 
@@ -307,7 +323,7 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
-        font-style: italic;
+        /*font-style: italic;*/
         line-height: 40px;
     }
 
@@ -336,7 +352,7 @@ section h3.section-subheading {
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
+    /*font-style: italic;*/
     font-weight: 400;
 }
 
@@ -416,7 +432,7 @@ section h3.section-subheading {
     margin: 0;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
+    /*font-style: italic; */
 }
 
 #portfolio * {
@@ -794,7 +810,7 @@ ul.social-buttons li a:active {
     margin: 20px 0 30px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
+    /*font-style: italic;*/
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -804,6 +820,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
+    width: 400px;
 }
 
 .portfolio-modal .close-modal {
@@ -868,3 +885,4 @@ body {
   -webkit-filter: grayscale(1);
   -ms-filter: grayscale(1);
 }
+
