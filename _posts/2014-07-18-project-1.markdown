@@ -3,7 +3,7 @@ title: Cut planes
 subtitle: See inside.
 layout: default
 modal-id: 1
-img: https://files.slack.com/files-pri/T03F7C81W-F088Q6P18/cutplaneopt2.gif
+img: /img/cutplaneopt2.gif
 thumbnail: cutplane-thumb.png
 alt: image-alt
 description: Easily reduce your model to only what your need to see. With live feedback every slide of your finger.
