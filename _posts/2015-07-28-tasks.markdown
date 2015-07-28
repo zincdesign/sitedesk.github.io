@@ -4,7 +4,7 @@ subtitle: Simple, flexible task management.
 layout: default
 modal-id: 3
 img: /img/quickfeats/attach.gif
-thumbnail: task-thumb.png
+thumbnail: tasks-thumb.png
 alt: image-alt
 description: Maintenance, inspection and construction tasks that interact with your building model. Automate your organisation's existing workflows.
 

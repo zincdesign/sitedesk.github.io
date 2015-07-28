@@ -1,10 +1,10 @@
 ---
-title: Link Documentation
-subtitle: Simple asset information models
+title: Communicate
+subtitle: Intuitive asset information models
 layout: default
 modal-id: 2
 img: /img/quickfeats/attach.gif
-thumbnail: doc-thumb.png
+thumbnail: docs-thumb.png
 alt: image-alt
 description: Simply and easily build up your asset information model. Create intuitive digital 3D O&M manuals for future maintenance.
 
