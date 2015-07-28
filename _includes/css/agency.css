@@ -170,13 +170,20 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+.brandname-site {
+  color: #fff;
+}
+
+.brandname-desk {
+  color: #{{ site.color.dark-lighter }};
+}
+
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #{{ site.color.dark }};
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.color.primary }};
 }
 
@@ -235,7 +242,6 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -254,7 +260,6 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -264,15 +269,10 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #3f3e3e;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-image: url(../img/header-bg.png);
+    background-repeat: repeat;
 }
 
 header .intro-text {
@@ -861,4 +861,10 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
+}
+
+.img-greyscale {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  -ms-filter: grayscale(1);
 }
