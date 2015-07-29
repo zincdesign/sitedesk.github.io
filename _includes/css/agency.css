@@ -373,12 +373,15 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-link {
+    background-size: contain;
+    min-height: 20em;
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
+/**
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
@@ -387,7 +390,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    background: rgba(254,209,54,.9);
     background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
@@ -414,6 +417,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
 }
+*/
 
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
