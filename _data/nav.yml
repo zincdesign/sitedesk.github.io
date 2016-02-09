@@ -1,0 +1,36 @@
+- name: Product
+  path: index.html
+  section_id: home
+- name: Services
+  path: case-studies.html
+  section_id: services
+  children:
+    - name: Public Sector
+      path: public-sector.html
+    - name: Contractor &amp; Engineer
+      path: contractors-engineers.html
+    - name: Consulatant &amp; Advisor
+      path: consultants-advisors.html
+    - name: Owner, Operator &amp FM
+      path: owner-operator.html
+    - name: Case Studies
+      path: case-studies.html
+- name: About
+  path: about.html
+  section_id: about
+- name: Blog
+  path: blog/
+  section_id: blog
+- name: Contact
+  path: contact.html
+  section_id: contact
+
+# - name: Portfolio
+#   path: portfolio.html
+#   section_id: portfolio
+#   children:
+#     - name: Portfolio
+#       path: portfolio.html
+#     - name: Portfolio single
+#       path: portfolio-item.html
+

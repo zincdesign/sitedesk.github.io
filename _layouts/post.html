@@ -1,0 +1,26 @@
+---
+layout: blog
+section_id: blog
+---
+
+{{page.categories}}
+
+
+<div class='post'>
+  <div class='timestamp left text-center'>
+    <span class='month'>{{ page.date | date: "%h" }}</span>
+    <span class='date'>{{ page.date | date: "%d" }}</span>
+  </div>
+  <div class='info'>
+    <h3>
+      <a href='{{page.url}}'>{{ page.title }}</a>
+    </h3>
+    <p>
+      By
+      <span class='author'>{{ page.author }}</span>
+    </p>
+  </div>
+  <div class='content'>
+    {{ content }}
+  </div>
+</div>

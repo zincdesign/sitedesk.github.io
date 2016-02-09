@@ -1,28 +1,30 @@
-<!-- Team Section -->
-    <section id="feedback">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Real World Experiences</h2>
-                    <h3 class="section-subheading text-muted">Some feedback sitedesk has been given from current users of the platform.</h3>
-                </div>
-            </div>
-            <div class="row">
-                {% for member in site.people %}
-                <div class="col-lg-6">
-                    <div class="team-member">
-                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
-                        <p>{{ member.quote }}</p>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted"></p>
-                </div>
-            </div>
-        </div>
-    </section>
+{% if include.bg %}
+  {% assign bg = include.bg %}
+{% else %}
+  {% assign bg = "bg-2" %}
+{% endif %}
+
+<div class='testimonials full light centered-text {{bg}}'>
+  <div class='row'>
+    <div class='special-title'>
+      <i class='icon-quote'></i>
+      <h2 class='light'>What our clients say</h2>
+    </div>
+    <div class='two spacing'></div>
+  </div>
+  <div class='row'>
+    <div class='small-9 small-centered columns'>
+      <ul data-orbit=''>
+        {% for t in site.data.testimonials %}
+          <li>
+            <p class='quote'>"{{t.quote}}"</p>
+            <p class='testimonial-image'><img src="{{site.url}}/images/{{t.image}}" /></p>
+            <p class='author'>{{t.author}}</p>
+            <div class='two spacing'></div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class='spacing'></div>
+  </div>
+</div>

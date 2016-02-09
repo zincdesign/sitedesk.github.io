@@ -1,27 +1,9 @@
-<!-- Clients Aside -->
-    <aside class="clients bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/William-Birch.jpg" class="img-responsive img-centered img-greyscale" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/Balfour-Beatty.jpg" class="img-responsive img-centered img-greyscale" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/Lorne-Stewart.jpg" class="img-responsive img-centered img-greyscale" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/HampshireCC.jpg" class="img-responsive img-centered img-greyscale" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </aside>
+<div class='full light-grey no-padding bg-6'>
+  <div class='spacing'></div>
+  <div class='row' style='text-align:center;'>
+    {% for client in site.data.clients %}
+      <img src='{{site.url}}/images/{{client.image}}' class='client-image'>
+    {% endfor %}
+  </div>
+  <div class='spacing'></div>
+</div>

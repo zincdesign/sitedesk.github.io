@@ -1,0 +1,25 @@
+<div class='full white centered-text'>
+  <div class='row'>
+    <div class='special-title centered-text'>
+      <h2>A unified environment for construction data</h2>
+      <p>Sitedesk BIM software is a fast, flexible and easy-to-use collaborative working environment for those involved in construction and engineering projects. It assures compliance with BIM and traditional construction processes alike.</p>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+  <div class='row'>
+    {% for why in site.data.whys %}
+      {% if include.shape %}
+        {% assign shape = include.shape %}
+      {% else %}
+        {% assign shape = "boxed" %}
+      {% endif %}
+      <div class='medium-3 large-3 columns icon-text-{{shape}}'>
+        <a href='{{ why.url }}' class='why-link'>
+          <i class='icon-{{ why.icon }}'></i>
+          <h3>{{ why.title }}</h3>
+          <p>{{ why.desc }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>

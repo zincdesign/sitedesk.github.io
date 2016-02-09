@@ -1,0 +1,30 @@
+- image: sitedesk/1.jpg
+  desc_location: left
+  desc:
+    <h2>Unlock the real value<br />of BIM data.</h2>
+    <div class='one spacing'></div>
+    <a class='button boxed' href="/request-demo.html">Request Demo</a>
+- image: sitedesk/2.jpg
+  desc_location: left
+  desc:
+    <h2>Make project data<br />accessible.</h2>
+    <div class='one spacing'></div>
+    <a class='button boxed' href="/request-demo.html">Request Demo</a>
+- image: sitedesk/3.jpg
+  desc_location: left
+  desc:
+    <h2>Create powerful asset<br />information models.</h2>
+    <div class='one spacing'></div>
+    <a class='button boxed' href="/request-demo.html">Request Demo</a>
+- image: sitedesk/4.jpg
+  desc_location: left
+  desc:
+    <h2>Sitedesk works<br />the way you do.</h2>
+    <div class='one spacing'></div>
+    <a class='button boxed' href="/request-demo.html">Request Demo</a>
+- image: sitedesk/5.jpg
+  desc_location: left
+  desc:
+    <h2>Control quality &<br />improve decision making</h2>
+    <div class='one spacing'></div>
+    <a class='button boxed' href="/request-demo.html">Request Demo</a>
