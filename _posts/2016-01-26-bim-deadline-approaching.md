@@ -21,6 +21,6 @@ On what contractors can do to get ready for April, he advises that it is time to
 
 Whilst the Government has been doing the right things to give the construction a smooth ride with BIM, he notes that there are still many die-hards that don’t yet see the benefits. Inertia is the main problem, he believes, and that some construction firms simply fear the unknown. His suggestion is for firms to recognise their strengths and to look at “the key to their past success and their current success and weave that into any BIM adoption.” This way companies build on their success with the least disruption.
 
-To hear more of Michael’s wisdom, [click here to here to listen to the interview.](http://bimcrunch.com/2016/01/crunch-time-michael-mccullen)
+To hear more of Michael’s wisdom, [click here to here to listen to the interview.](https://bimcrunch.com/2016/01/crunch-time-michael-mccullen)
 
 If you are one of the businesses realising that you have a LOT to do to catch up this year, then you may also be interested to download this free item, a Contractor’s Critical Path to Winning BIM Business – a useful and clear overview of the key business steps you need to take, along with a bonus slide that you can use to advance the conversation internally.
