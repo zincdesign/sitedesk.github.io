@@ -821,3 +821,8 @@ ul.info i:hover {
   font-size: 0.875rem;
   color: #999999;
 }
+.slider-container {
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
+}

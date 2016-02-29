@@ -3530,7 +3530,7 @@ kbd {
 }
 .orbit-container .orbit-slides-container img {
   display: block;
-  height: 240px;
+  height: 340px;
   max-width: 100%;
 }
 .orbit-container .orbit-slides-container.fade li {
