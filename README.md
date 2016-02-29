@@ -5,20 +5,11 @@ a new post from the template:
 - Go to the _templates folder, above, click on [post.md](https://raw.githubusercontent.com/sitedesk/sitedesk.github.io/master/_templates/post.md), click edit, copy the text.
 - Go to the _posts folder, click "New file", past the text in.  
 - Name the file `[todays date in YYY-MM-DD format]-a-meaningfull-name-for-our-tree-frog-post.md`
-- Edit the [metadata](https://jekyllrb.com/docs/frontmatter/) at the top of the file. For example:
-```
----
-layout: post
-title:  You won't believe how BIM  improves the lives of Romanian tree frogs
-date:   2016-08-05 12:00:00 +0000
-author: Sitedesk
----
-```
-Now add the content. The post needs a thumbnail image  [list of all blog posts](/blog/), so [upload](https://help.github.com/articles/adding-a-file-to-a-repository/) it into the `images/blog` directory. Lets call ours `treefrog.png` and [update the url](https://guides.github.com/features/mastering-markdown/) at the start of the post to
-`![]({{site.url}}/images/blog/treefrog.png)`
-
-Then add the first paragraph which will apear in the [list of all blog posts](/blog/). Followed by `<!--more-->`. Followed by the remainder of the article and hit save. For example:
-
+- Edit the title and date [metadata](https://jekyllrb.com/docs/frontmatter/) at the top of the file. 
+- Add a thumbnail: [Upload](https://help.github.com/articles/adding-a-file-to-a-repository/) it into the `images/blog` directory. Let's call ours `treefrog.png` and edit the link at the start of the post to `/images/blog/treefrog.png`
+- Add the first paragraph which will apear in the [blog posts page](/blog/). Followed by `<!--more-->`
+- Then add remainder of the article and hit save. 
+For example:
 ```
 ---
 layout: post
@@ -37,6 +28,7 @@ But with a dedicated look into BIM procedures the work of a single tree frog is 
 
 ...etc...
 ```
+Headings, images etc are added using [simple markup](https://guides.github.com/features/mastering-markdown/) or HTML.
 
 #Adding a page
 
@@ -51,7 +43,7 @@ The salt of the earth, diamond in the rough, best looking t-shirts you have ever
 ```
 See the `_layouts` folder for other templates. Some have more things you can fill in, but the process is the same. 
 
-#Checking new changes (staging)
+#Previewing changes (Staging)
 
 Shortly (30s - 5mins) after making a change, you'll see it on the staging site [sitedesk.xyz](sitedesk.xyz).
 
@@ -61,9 +53,9 @@ As well as this, any automated tests will be performed and the pass/fail status 
 
 *Note:* The tests are very basic, it is up to you to test the site works on desktop (IE, Edge, Chrome, Safari, Firefox) and mobile (iOS, Android). 
 
-#Publishing new changes (production)
+#Publishing changes (production)
 
-Once tested, changes can be pushed to production [sitedesk.com](sitedesk.com), by [tagging](https://help.github.com/articles/working-with-tags/).
+Once tested, changes can be pushed to production [sitedesk.com](sitedesk.com) by:
 - Click on [releases](https://github.com/sitedesk/sitedesk.github.io/releases) at the top of this page. 
 - Note the current release (e.g. `v3.2`) and click `Draft a new release`
 - Enter new release (e.g. `v3.3`), and click `Publish`
