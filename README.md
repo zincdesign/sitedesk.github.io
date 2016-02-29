@@ -63,9 +63,37 @@ nut & berry collection as their small teams are empowered by this efficiency.
 
 #Adding a page
 
+To add a new page detailing the amazing development team we first need to create a markdown file in the required location, which will be `sitedesk.xyz/team/index.md`.
 
-#Adding a template
+`mkdir team && touch team/index.html`
 
+open this file and add [metadata](https://jekyllrb.com/docs/frontmatter/) to define the page title as "What a bunch of folks!" using the page template.
+
+- Ensure the layout is of type `page`
+  - `layout: page`
+- Change the title
+  - `title: What a bunch of folks!`
+
+
+And you should have something looking like this at the top of your new post.
+
+```
+---
+layout: page
+title:  What a bunch of folks!
+---
+```
+
+then Add the content below and end up with something like this
+
+```
+---
+layout: page
+title:  What a bunch of folks!
+---
+
+The salt of the earh, diamond in the rough, best looking t-shirts you have ever seen on a group of carming A+ team players.
+```
 
 #Checking new changes (staging)
 
