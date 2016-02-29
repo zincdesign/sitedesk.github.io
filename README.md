@@ -1,110 +1,70 @@
 #Adding a new Blog post
 
-To add a new post about the interesting effect of BIM data on the romaninan tree frog we start by creating
-a new post from the template.
-
-`cp  _templates/post.md > _posts/[todays date in YYY-MM-DD format]-a-meaningfull-name-for-our-tree-frog-post.md`
-
-Then the post [metadata](https://jekyllrb.com/docs/frontmatter/) needs to be added/changed.
-
-- Ensure the layout is of type `post`
-  - `layout: post`
-- Change the title
-  - `title: You wont believe how BIM data improves the lives of romanian tree frogs`
-- Change the date to reflect the desired post date, which is probably todays date
-  - `date: 2016-08-05 12:00:00 +0000`
-- Give credit to the author, or default to the whole team with `Sitedesk`
-  - `author: Sitedesk`
-
-
-And you should have something looking like this at the top of your new post.
-
+To add a new post about (say) the effect of BIM data on the Romanian tree frog we start by creating
+a new post from the template:
+- Go to the _templates folder, above, click on [post.md](https://raw.githubusercontent.com/sitedesk/sitedesk.github.io/master/_templates/post.md), click edit, copy the text.
+- Go to the _posts folder, click "New file", past the text in.  
+- Name the file `[todays date in YYY-MM-DD format]-a-meaningfull-name-for-our-tree-frog-post.md`
+- Edit the [metadata](https://jekyllrb.com/docs/frontmatter/) at the top of the file. For example:
 ```
 ---
 layout: post
-title:  You wont believe how BIM data improves the lives of romanian tree frogs
+title:  You won't believe how BIM  improves the lives of Romanian tree frogs
 date:   2016-08-05 12:00:00 +0000
 author: Sitedesk
 ---
 ```
-
-Now this post needs some content. The post template will require an image in the post which will become
-a thumbnail for this post in the [list of all blog posts](/blog/). So one should be added.
-
-With a reprecentative image, [uplaod](https://help.github.com/articles/adding-a-file-to-a-repository/) it into the `images/blog` directory. Lets call ours `treefrog.png`.
-This should be added as a [markdown embedded image](https://guides.github.com/features/mastering-markdown/) at the start of the post.
+Now add the content. The post needs a thumbnail image  [list of all blog posts](/blog/), so [upload](https://help.github.com/articles/adding-a-file-to-a-repository/) it into the `images/blog` directory. Lets call ours `treefrog.png` and [update the url](https://guides.github.com/features/mastering-markdown/) at the start of the post to
 `![]({{site.url}}/images/blog/treefrog.png)`
 
-Then add the first paragraph which will apear in the [list of all blog posts](/blog/). Followed by the seperator `<!--more-->`. Followed by the remainder of the article which
-should continue seamlessly from the first paragraph. Now the post should look something like
+Then add the first paragraph which will apear in the [list of all blog posts](/blog/). Followed by `<!--more-->`. Followed by the remainder of the article and hit save. For example:
 
 ```
 ---
 layout: post
-title:  You wont believe how BIM data improves the lives of romanian tree frogs
+title:  You wont believe how BIM data improves the lives of Romanian tree frogs
 date:   2016-08-05 12:00:00 +0000
 author: Sitedesk
 ---
 
 ![]({{site.url}}/images/blog/treefrog.png)
 
-These cute little critters had a hard life bfore BIM came along. Forever worrying about how to keep drawings and dumentation safe in a harsh
-environment of near constant rain, preditors, auitors and a constant threat of thoe whole landscape being cut down.
+These cute little critters had a hard life bfore BIM came along. Forever worrying about how to keep drawings and documentation safe in a harsh environment of near constant rain, predators and auditors.
 
 <!-- more -->
 
-But with a dedicated look into bim procedures the work of a single tree from is now shared with others. The whole lifecycle of collection food, storing in holes,
-and retreving later in the year is streamlined and sharable. External Ant contractors can be allowed access to only a portion of the infomation
-they require when providing transportation services.
+But with a dedicated look into BIM procedures the work of a single tree frog is now shared with others. The whole lifecycle of collection food, storing in holes, and retreving later in the year is streamlined and sharable. External Ant contractors can be allowed access to only a portion of the infomation they require when providing transportation services.
 
-Racing into the 2016, the tree frog population adn building industry is soaring to new hights, with many treefron firms looking to expand into
-nut & berry collection as their small teams are empowered by this efficiency.
+...etc...
 ```
 
 #Adding a page
 
-To add a new page detailing the amazing development team we first need to create a markdown file in the required location, which will be `sitedesk.xyz/team/index.md`.
-
-`mkdir team && touch team/index.html`
-
-open this file and add [metadata](https://jekyllrb.com/docs/frontmatter/) to define the page title as "What a bunch of folks!" using the page template.
-
-- Ensure the layout is of type `page`
-  - `layout: page`
-- Change the title
-  - `title: What a bunch of folks!`
-
-
-And you should have something looking like this at the top of your new post.
-
-```
----
-layout: page
-title:  What a bunch of folks!
----
-```
-
-then Add the content below and end up with something like this
-
+To add a new page (say) detailing the amazing development team, we first need to create a file in the web location, for example: `sitedesk.xyz/team/index.html` by creating navigating to the right folder, above and clicking "New file". Add the basic [metadata](https://jekyllrb.com/docs/frontmatter/), and then your content.  For example: 
 ```
 ---
 layout: page
 title:  What a bunch of folks!
 ---
 
-The salt of the earh, diamond in the rough, best looking t-shirts you have ever seen on a group of carming A+ team players.
+The salt of the earth, diamond in the rough, best looking t-shirts you have ever seen on a group of charming A+ team players...
 ```
+See the `_layouts` folder for other templates. Some have more things you can fill in, but the process is the same. 
 
 #Checking new changes (staging)
 
-Shortly (30s - 5mins) after making modifications to the site, these modifications will be avaliable to view on [sitedesk.xyz](sitedesk.xyz).
+Shortly (30s - 5mins) after making a change, you'll see it on the staging site [sitedesk.xyz](sitedesk.xyz).
 
-As well as this, any automated tests will be performed and the pass/fail status of those tests can be seen [here](https://github.com/sitedesk/sitedesk.github.io/branches)
+As well as this, any automated tests will be performed and the pass/fail status of those tests can be seen [here](https://circleci.com/gh/sitedesk/sitedesk.github.io), or you'll get an email. 
 
-*Note:* if the set of files is failing tests, it will **not** be pushed to production when the site is tagged.
+*Note:* Test failures will prevent you from making the changes live. 
 
-#Pulishing new changes (production)
+*Note:* The tests are very basic, it is up to you to test the site works on desktop (IE, Edge, Chrome, Safari, Firefox) and mobile (iOS, Android). 
 
-When the state of staging is correct and ready to be moved into production [sitedesk.com](sitedesk.com), this is done by [tagging](https://help.github.com/articles/working-with-tags/).
+#Publishing new changes (production)
 
-find the latest released tag version E.G. `v6` and add a new tag with the version number incrimentend E.G. `v7`
+Once tested, changes can be pushed to production [sitedesk.com](sitedesk.com), by [tagging](https://help.github.com/articles/working-with-tags/).
+- Click on [releases](https://github.com/sitedesk/sitedesk.github.io/releases) at the top of this page. 
+- Note the current release (e.g. `v3.2`) and click `Draft a new release`
+- Enter new release (e.g. `v3.3`), and click `Publish`
+- The new site will go live in a minute or so. 
