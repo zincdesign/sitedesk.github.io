@@ -2,7 +2,9 @@
   <ul data-orbit=''>
     {% for slide in site.data.slides %}
       <li>
-        <img src="{{site.url}}/images/{{slide.image}}" />
+        <img id="slide-normal-image" src="{{site.url}}/images/{{slide.image}}" />
+        <img id="slide-small-image" src="{{site.url}}/images/backgrounds/blue.png" />
+
         <div class='orbit-caption caption-{{ slide.desc_location }}'>
           <div class='row'>
             <div class='large-12 columns right'>

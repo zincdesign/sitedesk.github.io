@@ -826,3 +826,25 @@ ul.info i:hover {
   max-width: 70rem;
   margin: 0 auto;
 }
+
+#slide-small-image {
+  display: none;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+  #slide-normal-image {
+    display: none;
+  }
+
+  #slide-small-image {
+    display: inline;
+  }
+
+  .slider-container {
+    text-align: center;
+  }
+
+  .orbit-caption .row {
+    margin-left: 0;
+  }
+}
