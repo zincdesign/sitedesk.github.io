@@ -848,3 +848,45 @@ ul.info i:hover {
     margin-left: 0;
   }
 }
+
+/* --- Styles used for home page experiment B --- */
+
+.slider-container {
+  text-align: center;
+}
+
+.orbit-caption .row {
+  margin-left: 0;
+}
+
+.orbit-caption h2 {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 12px;
+}
+
+.slider-container {
+  max-width: 100rem;
+}
+
+.orbit-slides-container {
+  height: 340px !important;
+  overflow: hidden;
+}
+
+.orbit-container .orbit-slides-container img {
+  height: auto;
+}
+
+.orbit-caption .row {
+  max-width: none;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+  #slide-normal-image {
+    display: inline;
+  }
+
+  #slide-small-image {
+    display: none;
+  }
+}
