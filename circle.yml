@@ -6,11 +6,11 @@ test:
     - gem install jekyll jekyll-paginate
     - jekyll build
   override:
-    - echo "TODO: ensure protected spaces"
-    - echo "TODO: check spelling"
-    - echo "TODO: internal / external link checker"
+    - echo TODO ensure protected spaces
+    - echo TODO check spelling
+    - echo TODO internal / external link checker
 deployment:
-  production:
+  prod:
     tag: /v[0-9]+\.[0-9]+\.[0-9]+\-.*/
     commands:
       - aws s3 sync ./_site/ s3://www.sitedesk.xyz/ --region eu-central-1 --exclude app/* --exclude assets/*
