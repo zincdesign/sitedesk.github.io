@@ -6,7 +6,7 @@ test:
     - gem install jekyll jekyll-paginate
     - jekyll build
   override:
-    - echo TODO ensure protected spaces
+    - if [ -e _site/app ]; then echo 'Fail - Cannot have any files or folders named app' && exit 1; fi
     - echo TODO check spelling
     - echo TODO internal / external link checker
 deployment:
