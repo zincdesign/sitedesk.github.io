@@ -1,18 +1,20 @@
-<div class="slider-container">
-  <ul data-orbit=''>
-    {% for slide in site.data.slides %}
-      <li>
-        <img id="slide-normal-image" src="{{site.url}}/images/{{slide.image}}" />
-        <img id="slide-small-image" src="{{site.url}}/images/backgrounds/blue.png" />
+<div class="slider-background">
+  <div class="slider-container">
+    <ul data-orbit=''>
+      {% for slide in site.data.slides %}
+        <li>
+          <img id="slide-normal-image" src="{{site.url}}/images/{{slide.image}}" />
+          <img id="slide-small-image" src="{{site.url}}/images/backgrounds/blue.png" />
 
-        <div class='orbit-caption caption-{{ slide.desc_location }}'>
-          <div class='row'>
-            <div class='large-12 columns right'>
-              {{ slide.desc }}
+          <div class='orbit-caption caption-{{ slide.desc_location }}'>
+            <div class='row'>
+              <div class='large-12 columns right'>
+                {{ slide.desc }}
+              </div>
             </div>
           </div>
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>

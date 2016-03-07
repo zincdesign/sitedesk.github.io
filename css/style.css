@@ -860,8 +860,14 @@ ul.info i:hover {
 }
 
 .orbit-caption h2 {
-  background: rgba(0, 0, 0, 0.75);
-  padding: 12px;
+  /*background: rgba(0, 0, 0, 0.75);*/
+  padding: 0px !important;
+  margin-bottom: 0 !important;
+  font-size: 2rem;
+}
+
+.slider-background {
+  background: #999;
 }
 
 .slider-container {
@@ -879,6 +885,21 @@ ul.info i:hover {
 
 .orbit-caption .row {
   max-width: none;
+}
+
+.orbit-caption .button.orange {
+  background: #fcbf31;
+  color: #fff;
+}
+
+.orbit-caption .button.orange:hover {
+  background: #fcdf51;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .orbit-caption h2 {
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 800px) {
