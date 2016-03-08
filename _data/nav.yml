@@ -1,6 +1,15 @@
 - name: Product
   path: index.html
   section_id: home
+  children:
+    - name: Features
+      path: features.html
+    - name: User Benefits
+      path: user-benefits.html
+    - name: Independent Review
+      path: independent-review.html
+    - name: Fact Sheet
+      path: fact-sheet.html
 - name: Services
   path: case-studies
   section_id: services

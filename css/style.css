@@ -144,6 +144,19 @@ h3.bullet {
   background-size: cover;
 }
 
+.bg-orange {
+  background: url(../images/backgrounds/orange-background.png) center center no-repeat;
+  background-size: cover;
+}
+
+.bg-light-gray {
+  background: #f5f5f5;
+}
+
+.icon-text-boxed {
+  color:red;
+}
+
 /*header */
 .top-bar .name h1 img {
   width: 200px;
@@ -894,6 +907,70 @@ ul.info i:hover {
 
 .orbit-caption .button.orange:hover {
   background: #fccf41;
+}
+
+.no-top-padding {
+  padding-top: 0;
+}
+
+.features, .features-checklist {
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+}
+
+.features .columns {
+  line-height: 23px;
+  padding-left: 0;
+}
+
+.features-checklist .bullet {
+  color: #555;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+}
+
+.features-checklist i {
+  line-height: 2.2rem;
+}
+
+.features-checklist i.icon-plus {
+  line-height: 2.3rem;
+}
+
+.feature-pages h3 {
+  color: #666;
+}
+
+h3.sub-header {
+  font-size: 28px;
+  line-height: 38px;
+  color: #fff;
+  text-transform: none;
+  font-weight: 300 !important;
+  letter-spacing: 1px;
+}
+
+.blue-text {
+  color: #6666ff;
+}
+
+.note {
+  padding: 10px 0;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.bullet-indent {
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  color: #555;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1.2px;
+  padding-left: 60px;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 480px) {
