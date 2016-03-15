@@ -1077,6 +1077,11 @@ h3.sub-header-black {
   .slider-container .slide {
     min-height: 180px;
   }
+
+  p.quote {
+    padding: 0;
+    line-height: 1.8;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 800px) {
@@ -1102,7 +1107,7 @@ h3.sub-header-black {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 800px) {
-  .orbit-slides-container li img {
+  .orbit-slides-container li img.slider-image {
     width: 750px !important;
     max-width: none !important;
   }
