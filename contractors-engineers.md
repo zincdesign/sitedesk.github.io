@@ -1,6 +1,7 @@
 ---
 layout: content-with-bullets
 title: Contractors &amp; engineers
+icon: icon-layout
 section_id: contractors-engineers
 bullets:
   - title: Maintain complete visibility

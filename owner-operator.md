@@ -1,6 +1,7 @@
 ---
 layout: content-with-bullets
 title: Owner, Operator &amp; FM
+icon: icon-chat
 section_id: consultants-advisors
 bullets:
   - title: Digital O&M manuals

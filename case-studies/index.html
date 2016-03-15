@@ -4,27 +4,36 @@ title: Case Studies
 section_id: case-studies
 ---
 
-<div class='full'>
+<div class='full case-studies'>
   <div class='row'>
     <div class='special-title centered-text'>
       <i class='icon-map'></i>
       <h2>Case Studies</h2>
       <p class='shortline'></p>
     </div>
-    <div class='two spacing'></div>
+  </div>
+
+  <div class='two spacing'></div>
 
   {% for study in site.case-studies %}
-    <div class='info'>
-      <h1>
-        <a href='{{study.url}}'>{{ study.title }}</a>
-      </h1>
+    <div class="row">
+      <div class="medium-12 large-12 columns">
+        <h1>
+          <a href='{{study.url}}'>{{ study.title }}</a>
+        </h1>
+      </div>
     </div>
-    <div class='content small-images'>
-      <img class="medium-4 large-4 columns" src="{{study.image}}">
-      <p class="medium-8 large-8 columns">{{study.summary}}</p>
-      <a class='button' href='{{study.url}}'>Read more</a>
+
+    <div class="row">
+      <div class="medium-4 large-4 columns">
+        <img src="{{study.image}}" />
+      </div>
+
+      <div class="medium-8 large-8 columns">
+        <p>{{study.summary}}</p>
+        <a class='button' href='{{study.url}}'>Read more</a>
+      </div>
     </div>
   {% endfor%}
 
-  </div>
 </div>

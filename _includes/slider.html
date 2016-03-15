@@ -1,10 +1,9 @@
 <div class="slider-background">
   <div class="slider-container">
-    <ul data-orbit=''>
+    <ul data-orbit data-options="animation:slide; timer_speed:3000; pause_on_hover:false; navigation_arrows:true; bullets:false; slide_number:false; circular:true; ">
       {% for slide in site.data.slides %}
         <li>
-          <img id="slide-normal-image" src="{{site.url}}/images/{{slide.image}}" />
-          <img id="slide-small-image" src="{{site.url}}/images/backgrounds/blue.png" />
+          <img id="slide-normal-image" src="{{site.url}}/images/{{slide.image}}" class="slider-image" />
 
           <div class='orbit-caption caption-{{ slide.desc_location }}'>
             <div class='row'>

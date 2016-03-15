@@ -33,13 +33,3 @@
 - name: Contact
   path: contact.html
   section_id: contact
-
-# - name: Portfolio
-#   path: portfolio.html
-#   section_id: portfolio
-#   children:
-#     - name: Portfolio
-#       path: portfolio.html
-#     - name: Portfolio single
-#       path: portfolio-item.html
-

@@ -1,6 +1,7 @@
 ---
 layout: content-with-bullets
 title: Public Sector BIM
+icon: icon-flash
 section_id: public-sector
 bullets:
   - title: Extract the maximum benefit from your BIM data

@@ -1,6 +1,7 @@
 ---
 layout: content-with-bullets
 title: Consultants &amp; Advisors
+icon: icon-paper-plane
 section_id: consultants-advisors
 bullets:
   - title: Maintain complete visibility

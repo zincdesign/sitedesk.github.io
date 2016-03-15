@@ -855,14 +855,6 @@ ul.info i:hover {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 800px) {
-  #slide-normal-image {
-    display: none;
-  }
-
-  #slide-small-image {
-    display: inline;
-  }
-
   .slider-container {
     text-align: center;
   }
@@ -1058,18 +1050,60 @@ h3.sub-header-black {
   color: #4caaf2;
 }
 
+.independent-review a {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.left-right-padding {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.blue-text {
+  color: #55aaff;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 480px) {
   .orbit-caption h2 {
     font-size: 1rem;
   }
+
+  .slider-container .orbit-slides-container {
+    height: 180px !important;
+    max-height: 180px !important;
+  }
+
+  .slider-container .slide {
+    min-height: 180px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 800px) {
+  .slider-container .orbit-slides-container {
+    height: 250px !important;
+    max-height: 250px !important;
+  }
+
+  .slider-container .slide {
+    min-height: 250px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+  .user-benefits .medium-4 {
+    margin-top: 40px;
+  }
+
+  .user-benefits .orange-container, .user-benefits .white-container {
+    margin-top: -80px;
+    margin-bottom: 40px;
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 800px) {
-  #slide-normal-image {
-    display: inline;
-  }
-
-  #slide-small-image {
-    display: none;
+  .orbit-slides-container li img {
+    width: 750px !important;
+    max-width: none !important;
   }
 }
