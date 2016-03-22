@@ -1064,6 +1064,76 @@ h3.sub-header-black {
   color: #55aaff;
 }
 
+.video-container {
+  position: relative;
+}
+
+.video-container iframe {
+  width: 100%;
+}
+
+.video-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.video-container:hover {
+  cursor: pointer;
+}
+
+.video-container .overlay div {
+  position: absolute;
+  left: 50%;
+  margin-left: -27.5px;
+  top: 50%;
+  margin-top: -27.5px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+}
+
+.video-container .overlay div i {
+  line-height: 55px;
+  font-size: 44px;
+  padding: 0;
+  margin: 0;
+}
+
+.video-container:hover .overlay div i {
+  color: #fcbf31;;
+}
+
+/* --- video player screen overlay --- */
+
+.video-player-overlay {
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.video-player-overlay .video-box {
+  width: 75%;
+  height: 75%;
+  margin: 30px auto;
+  overflow: visible;
+  background: #000;
+}
+
+.video-player-overlay .video-box iframe {
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 480px) {
   .orbit-caption h2 {
     font-size: 1rem;
