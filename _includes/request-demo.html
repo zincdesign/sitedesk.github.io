@@ -1,40 +1,52 @@
+<script>
+document.addEventListener("DOMContentLoaded", function(event) { 
+  document.getElementById('demo-form-complete-url').value = document.URL + '?thank-you';
+  if (document.URL.indexOf("thank-you") !== -1){
+	document.getElementById('demo-form-form').style.display = 'none';
+	document.getElementById('contact-form-blurb').innerHTML = 'Thank you. We will be in touch shortly, or call us now on + 44 (0)333 123 6633';
+  }
+});
+</script>
 <div class='full'>
   <div class='row'>
     <div class='large-10 small-centered columns'>
       <div class='special-title centered-text'>
         <h2>Request a demonstration</h2>
-        <p>Complete the form below to request a Sitedesk software demonstration. We will respond to you as quickly as we can – if the need is particularly urgent, do call us on 0203 308 2958 to speak to a knowledgeable representative.  Our demonstrations are normally conducted remotely over the web but, of course, if you feel you would benefit from a more in-depth meeting please let us know.</p>
+        <p id='contact-form-blurb'>Complete the form below to request a Sitedesk demonstration, or call us now on + 44 (0)333 123 6633.  Our demonstrations are normally conducted remotely over the web but, if you feel you would benefit from a more in-depth meeting, please let us know.</p>
       </div>
     </div>
   </div>
 </div>
 
 <div class='full dark-blue'>
-  <div class='form'>
-    <div class='row'>
+  <form class='form' action="https://service.capsulecrm.com/service/newlead" method="post" id='demo-form-form'>
+	<input type="hidden" name="FORM_ID" value="069d3662-442b-434b-8b2c-78b8f49b0db7">
+	<input type="hidden" name="COMPLETE_URL" value="http://sitedesk.com" id='demo-form-complete-url'>
+	<input type="hidden" name="TAG" value="Website-demo">   
+	<div class='row'>
       <div class='medium-8 large-8 columns'>
-        <input placeholder='Full name*' type='text'>
+        <input name='PERSON_NAME' placeholder='Full name*' type='text'>
       </div>
 
       <div class='medium-8 large-8 columns'>
-        <input placeholder='Email address*' type='text'>
+        <input name='EMAIL' placeholder='Email address*' type='text'>
       </div>
 
       <div class='medium-8 large-8 columns'>
-        <input placeholder='Company name*' type='text'>
+        <input name='ORGANISATION_NAME' placeholder='Company name*' type='text'>
       </div>
 
       <div class='medium-8 large-8 columns'>
-        <input placeholder='Phone number*' type='text'>
+        <input name='PHONE' placeholder='Phone number*' type='text'>
       </div>
 
       <div class='medium-8 large-8 columns'>
         <p>Tell us a little about why you want a demonstration, to help us understand your priorities</p>
-        <input type='text'>
+        <input name='NOTE' type='text'>
         <input class='button white' type='submit' text="...">
       </div>
 
       <div class='medium-8 large-8 columns'></div>
     </div>
-  </div>
+  </form>
 </div>
