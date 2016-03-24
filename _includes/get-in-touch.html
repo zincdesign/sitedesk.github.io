@@ -3,10 +3,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
   document.getElementById('contact-form-complete-url').value = document.URL + '?thank-you';
   if (document.URL.indexOf("thank-you") !== -1){
 	document.getElementById('contact-form-form').style.display = 'none';
-	document.getElementById('contact-form-thanks').style.display = 'block';
+	document.getElementById('contact-form-thanks').value = 'Thank you, we will be in touch shortly, or call us on + 44 (0)333 123 6633';
   }
 });
-
 </script>
 <div class='full'>
   <div class='row'>
@@ -14,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       <div class='special-title centered-text'>
         <i class='icon-mail'></i>
         <h2>Get In Touch</h2>
-        <p>You can contact us using the form below or call us on + 44 (0)333 123 6633</p>
+        <p id='contact-form-blurb'>You can contact us using the form below or call us on + 44 (0)333 123 6633</p>
       </div>
     </div>
   </div>
@@ -48,5 +47,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
        </div>
     </div>
   </form>
-  <div id='contact-form-thanks' style="display:none;">Thank you, we will be in touch shortly.</div>
 </div>
