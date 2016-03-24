@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   document.getElementById('contact-form-complete-url').value = document.URL + '?thank-you';
   if (document.URL.indexOf("thank-you") !== -1){
 	document.getElementById('contact-form-form').style.display = 'none';
-	document.getElementById('contact-form-thanks').value = 'Thank you, we will be in touch shortly, or call us on + 44 (0)333 123 6633';
+	document.getElementById('contact-form-blurb').innerHTML = 'Thank you. We will be in touch shortly, or call us now on + 44 (0)333 123 6633';
   }
 });
 </script>
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       <div class='special-title centered-text'>
         <i class='icon-mail'></i>
         <h2>Get In Touch</h2>
-        <p id='contact-form-blurb'>You can contact us using the form below or call us on + 44 (0)333 123 6633</p>
+        <p id='contact-form-blurb'>You can contact us using the form below, or call us on + 44 (0)333 123 6633</p>
       </div>
     </div>
   </div>
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   <form class='form' action="https://service.capsulecrm.com/service/newlead" method="post" id='contact-form-form'>
 	<input type="hidden" name="FORM_ID" value="069d3662-442b-434b-8b2c-78b8f49b0db7">
 	<input type="hidden" name="COMPLETE_URL" value="http://sitedesk.com" id='contact-form-complete-url'>
-	<input type="hidden" name="TAG" value="Website">
+	<input type="hidden" name="TAG" value="Website-contact">
     <div class='row'>
       <div class='medium-6 large-6 columns'>
         <input name='PERSON_NAME' placeholder='Full name*' type='text'>
