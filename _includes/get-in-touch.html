@@ -10,29 +10,32 @@
   </div>
 </div>
 <div class='full yellow'>
-  <div class='form'>
+  <form class='form'>
+	<input type="hidden" name="FORM_ID" value="069d3662-442b-434b-8b2c-78b8f49b0db7">
+	<input type="hidden" name="COMPLETE_URL" value="http://sitedesk.com">
+	<input type="hidden" name="TAG" value="Website">
     <div class='row'>
       <div class='medium-6 large-6 columns'>
-        <input placeholder='Full name*' type='text'>
-        <input placeholder='Company name*' type='text'>
-        <input placeholder='Email address*' type='text'>
-        <input placeholder='Phone number' type='text'>
+        <input name='PERSON_NAME' placeholder='Full name*' type='text'>
+        <input name='ORGANISATION_NAME' placeholder='Company name*' type='text'>
+        <input name='EMAIL' placeholder='Email address*' type='text'>
+        <input name='PHONE' placeholder='Phone number' type='text'>
       </div>
 
       <div class='medium-6 large-6 columns'>
         <p>Which description matches you best from this list?*</p>
-        <label><input type="checkbox" value="contractor"> Contractor</label><br>
-        <label><input type="checkbox" value="consultant"> Consultant</label><br>
-        <label><input type="checkbox" value="public_sector"> Public sector</label><br>
-        <label><input type="checkbox" value="fm_asset"> FM / asset manager</label><br>
-        <label><input type="checkbox" value="bim_manager"> BIM manager</label><br>
-        <label><input type="checkbox" value="other"> Other</label><br>
+        <label><input type="radio" name='JOB_TITLE' value="contractor"> Contractor</label><br>
+        <label><input type="radio" name='JOB_TITLE'  value="consultant"> Consultant</label><br>
+        <label><input type="radio" name='JOB_TITLE'  value="public_sector"> Public sector</label><br>
+        <label><input type="radio" name='JOB_TITLE'  value="fm_asset"> FM / asset manager</label><br>
+        <label><input type="radio" name='JOB_TITLE'  value="bim_manager"> BIM manager</label><br>
+        <label><input type="radio" name='JOB_TITLE'  value="other"> Other</label><br>
       </div>
 
       <div class='medium-12 large-12 columns'>
-        <textarea placeholder='Tell us more about your needs'></textarea>
+        <textarea name='NOTE' placeholder='Tell us more about your needs'></textarea>
         <input class='button white' type='submit'>
        </div>
     </div>
-  </div>
+  </form>
 </div>
