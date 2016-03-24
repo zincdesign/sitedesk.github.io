@@ -1,3 +1,13 @@
+<script>
+document.addEventListener("DOMContentLoaded", function(event) { 
+  document.getElementById('contact-form-complete-url').value = document.URL + '?thank-you';
+  if (document.URL.indexOf("thank-you") !== -1){
+	document.getElementById('contact-form-form').style.display = 'none';
+	document.getElementById('contact-form-thanks').style.display = 'block';
+  }
+});
+
+</script>
 <div class='full'>
   <div class='row'>
     <div class='large-10 small-centered columns'>
@@ -10,9 +20,9 @@
   </div>
 </div>
 <div class='full yellow'>
-  <form class='form' action="https://service.capsulecrm.com/service/newlead" method="post">
+  <form class='form' action="https://service.capsulecrm.com/service/newlead" method="post" id='contact-form-form'>
 	<input type="hidden" name="FORM_ID" value="069d3662-442b-434b-8b2c-78b8f49b0db7">
-	<input type="hidden" name="COMPLETE_URL" value="http://sitedesk.com">
+	<input type="hidden" name="COMPLETE_URL" value="http://sitedesk.com" id='contact-form-complete-url'>
 	<input type="hidden" name="TAG" value="Website">
     <div class='row'>
       <div class='medium-6 large-6 columns'>
@@ -38,4 +48,5 @@
        </div>
     </div>
   </form>
+  <div id='contact-form-thanks' style="display:none;">Thank you, we will be in touch shortly.</div>
 </div>
