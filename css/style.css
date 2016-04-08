@@ -34,16 +34,12 @@ h3.bullet {
   background: white;
 }
 
-.yellow {
-  background: #fcbf31;
+.orange {
+  background: #dc911b;
 }
 
 .dark-blue {
   background: #3d5766;
-}
-
-.light-yellow {
-  background: #fef6df;
 }
 
 .light-grey {
@@ -83,7 +79,7 @@ h3.bullet {
   letter-spacing: 3px;
   font-size: 14px;
   padding: 13px 30px 10px;
-  background: #fcbf31;
+  background: #dc911b;
 }
 
 .button:hover {
@@ -189,7 +185,7 @@ h3.bullet {
 /*special title */
 .special-title i {
   font-size: 50px;
-  color: #fcbf31;
+  color: #dc911b;
   margin-bottom: 15px;
   display: block;
 }
@@ -209,7 +205,7 @@ h3.bullet {
   width: 100px;
   height: 5px;
   margin: 0 auto;
-  border-bottom: 1px solid #fcbf31;
+  border-bottom: 1px solid #dc911b;
 }
 
 /*icon-text */
@@ -228,8 +224,8 @@ h3.bullet {
   line-height: 2.1rem;
   float: left;
 }
-.icon-text i.yellow {
-  background: #fcbf31;
+.icon-text i.orange {
+  background: #dc911b;
 }
 .icon-text h3, .icon-text p {
   margin-left: 60px;
@@ -237,8 +233,8 @@ h3.bullet {
 
 .icon-text-boxed i {
   font-size: 88px;
-  color: #fcbf31;
-  border: 1px solid #fcbf31;
+  color: #dc911b;
+  border: 1px solid #dc911b;
   padding: 35px 0;
   display: block;
   width: 88%;
@@ -269,7 +265,7 @@ h3.bullet {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  background: #fcbf31;
+  background: #dc911b;
   -webkit-transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
@@ -323,7 +319,7 @@ h3.bullet {
 }
 .bars p.highlighted {
   width: 0;
-  background: #fcbf31;
+  background: #dc911b;
   height: 14px;
 }
 
@@ -353,7 +349,7 @@ h3.bullet {
 
 .member.active p.active-line {
   height: 4px;
-  background: #fcbf31;
+  background: #dc911b;
   position: relative;
   margin: 0;
 }
@@ -384,11 +380,12 @@ h3.bullet {
   float: left;
   margin-right: 5px;
 }
-.socials i.yellow {
+
+.socials i.orange {
   color: white;
-  background: #fcbf31;
+  background: #dc911b;
 }
-.socials i.yellow:hover {
+.socials i.orange:hover {
   background-color: rgba(252, 191, 49, 0.8);
 }
 .socials i.grey {
@@ -621,7 +618,7 @@ ul.gallery li a .overlay {
   transition: all 0.2s linear;
 }
 ul.gallery li a h3 {
-  color: #fcbf31;
+  color: #dc911b;
   margin-bottom: 10px;
 }
 ul.gallery li a p {
@@ -689,10 +686,10 @@ ul#filter li a {
   color: #999999;
 }
 ul#filter li.current {
-  border: 1px solid #fcbf31;
+  border: 1px solid #dc911b;
 }
 ul#filter li.current a {
-  color: #fcbf31;
+  color: #dc911b;
 }
 
 ul.info {
@@ -702,7 +699,7 @@ ul.info a {
   margin-right: 5px;
 }
 ul.info i {
-  border: 1px solid #fcbf31;
+  border: 1px solid #dc911b;
   padding: 5px;
   -webkit-transition: all 0.1s linear;
   -moz-transition: all 0.1s linear;
@@ -801,17 +798,17 @@ ul.info i:hover {
 
 .timestamp {
   width: 80px;
-  border: 1px solid #fcbf31;
+  border: 1px solid #dc911b;
 }
 .timestamp .month {
-  background: #fcbf31;
+  background: #dc911b;
   color: white;
-  border-bottom: 1px solid #fcbf31;
+  border-bottom: 1px solid #dc911b;
   display: block;
   padding: 5px 0;
 }
 .timestamp .date {
-  color: #fcbf31;
+  color: #dc911b;
   display: block;
   padding: 20px 0;
   font-size: 36px;
@@ -903,12 +900,12 @@ ul.info i:hover {
 }
 
 .orbit-caption .button.orange {
-  background: #fcbf31;
+  background: #dc911b;
   color: #fff;
 }
 
 .orbit-caption .button.orange:hover {
-  background: #fccf41;
+  background: #dc911b;
 }
 
 .no-top-padding {
@@ -1008,7 +1005,7 @@ h3.sub-header-black {
 
 .user-benefits .green-points i {
   color: #fff;
-  background: #a0ce4e;
+  background: #a2c037;
 }
 
 .user-benefits .white-text {
@@ -1061,7 +1058,7 @@ h3.sub-header-black {
 }
 
 .blue-text {
-  color: #55aaff;
+  color: #0098d5;
 }
 
 .video-container {
@@ -1105,7 +1102,7 @@ h3.sub-header-black {
 }
 
 .video-container:hover .overlay div i {
-  color: #fcbf31;;
+  color: #dc911b;
 }
 
 /* --- video player screen overlay --- */
