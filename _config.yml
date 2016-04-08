@@ -6,3 +6,5 @@ gems: [jekyll-paginate]
 collections:
   case-studies:
     output: true
+  events:
+    output: true
