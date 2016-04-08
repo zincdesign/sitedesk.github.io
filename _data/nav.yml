@@ -28,8 +28,8 @@
   path: about.html
   section_id: about
 - name: News
-  path: blog/index.html
-  section_id: blog
+  path: news/index.html
+  section_id: news
 - name: Contact
   path: contact.html
   section_id: contact

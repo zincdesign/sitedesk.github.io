@@ -5,7 +5,7 @@ date:   2016-01-26 12:00:00 +0000
 author: Sitedesk
 ---
 
-![]({{site.url}}/images/blog/CrunchTimeMarketingImage.png)
+![]({{site.url}}/images/news/CrunchTimeMarketingImage.png)
 
 BIM deadline approaching: Listen up – 2016 is CrunchTime
 

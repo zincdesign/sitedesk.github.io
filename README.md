@@ -1,4 +1,4 @@
-#Adding a new Blog post
+#Adding a new News post
 
 To add a new post about (say) the effect of BIM data on the Romanian tree frog we start by creating
 a new post from the template:
@@ -6,8 +6,8 @@ a new post from the template:
 - Go to the [_posts](https://github.com/sitedesk/sitedesk.github.io/tree/master/_posts) folder, click "New file", past the text in.
 - Name the file `[todays date in YYY-MM-DD format]-a-meaningfull-name-for-our-tree-frog-post.md`
 - Edit the title and date [metadata](https://jekyllrb.com/docs/frontmatter/) at the top of the file.
-- Add a thumbnail: [Upload](https://help.github.com/articles/adding-a-file-to-a-repository/) it into the `images/blog` directory. Let's call ours `treefrog.png` and edit the link at the start of the post to `/images/blog/treefrog.png`
-- Add the first paragraph which will apear in the [blog posts page](https://sitedesk.xyz/blog/index.html). Followed by `<!--more-->`
+- Add a thumbnail: [Upload](https://help.github.com/articles/adding-a-file-to-a-repository/) it into the `images/new` directory. Let's call ours `treefrog.png` and edit the link at the start of the post to `/images/news/treefrog.png`
+- Add the first paragraph which will apear in the [news posts page](https://sitedesk.xyz/news/index.html). Followed by `<!--more-->`
 - Then add remainder of the article and hit save.
 
 For example:
@@ -20,7 +20,7 @@ date:   2016-08-05 12:00:00 +0000
 author: Sitedesk
 ---
 
-![]({{site.url}}/images/blog/treefrog.png)
+![]({{site.url}}/images/news/treefrog.png)
 
 These cute little critters had a hard life bfore BIM came along. Forever worrying about how to keep drawings and documentation safe in a harsh environment of near constant rain, predators and auditors.
 
