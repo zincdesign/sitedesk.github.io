@@ -11,7 +11,7 @@
     - name: Fact Sheet
       path: fact-sheet.html
 - name: Services
-  path: case-studies
+  path: index.html
   section_id: services
   children:
     - name: Public Sector
@@ -23,11 +23,11 @@
     - name: Owner, Operator &amp FM
       path: owner-operator.html
     - name: Case Studies
-      path: case-studies
-- name: About
+      path: case-studies/index.html
+- name: Company
   path: about.html
   section_id: about
-- name: Blog
+- name: News
   path: blog/index.html
   section_id: blog
 - name: Contact
