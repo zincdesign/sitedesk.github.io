@@ -10,7 +10,10 @@ test:
     - echo TODO check spelling
     - echo TODO internal / external link checker
 deployment:
-  prod:
-    tag: /v[0-9]+\.[0-9]+\.[0-9]+\-.*/
+  staging:
     commands:
       - aws s3 sync ./_site/ s3://www.sitedesk.xyz/ --region eu-central-1 --exclude app/* --exclude assets/*
+  prod:
+    tag: /v[0-9]/
+    commands:
+      - aws s3 sync ./_site/ s3://www.sitedesksoftware.com/ --region eu-central-1 --exclude app/* --exclude assets/*
