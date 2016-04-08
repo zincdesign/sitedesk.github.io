@@ -1120,10 +1120,10 @@ h3.sub-header-black {
   border: 0;
 }
 
-.why-link, .why-link:hover {		
-  color: #333;		
+.why-link, .why-link:hover {
+  color: #333;
 }
- 
+
 @media only screen and (min-width: 0px) and (max-width: 480px) {
   .orbit-caption h2 {
     font-size: 1rem;
@@ -1170,5 +1170,11 @@ h3.sub-header-black {
   .orbit-slides-container li img.slider-image {
     width: 750px !important;
     max-width: none !important;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .orbit-caption {
+    padding-top: 4em !important;
   }
 }
