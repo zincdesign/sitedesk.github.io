@@ -116,7 +116,7 @@ h3.bullet {
 }
 
 .bg-2 {
-  background: url(../images/backgrounds/orange.jpg);
+  background: url(../images/backgrounds/orange.png);
   background-size: cover;
 }
 
@@ -141,7 +141,7 @@ h3.bullet {
 }
 
 .bg-orange {
-  background: url(../images/backgrounds/orange-background.png) center center no-repeat;
+  background: url(../images/backgrounds/orange.png) center center no-repeat;
   background-size: cover;
 }
 
@@ -426,10 +426,6 @@ p.nav-control a.current span {
   background: white;
 }
 
-/*why*/
-.why-link, .why-link:hover {
-  color: #333;
-}
 
 /*form */
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
