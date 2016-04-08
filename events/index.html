@@ -1,0 +1,39 @@
+---
+layout: default
+title: Events
+section_id: events
+---
+
+<div class='full case-studies'>
+  <div class='row'>
+    <div class='special-title centered-text'>
+      <i class='icon-map'></i>
+      <h2>BIM Seminars</h2>
+      <p class='shortline'></p>
+    </div>
+  </div>
+
+  <div class='two spacing'></div>
+
+  {% for event in site.events %}
+    <div class="row">
+      <div class="medium-12 large-12 columns">
+        <h1>
+          <a href='{{event.url}}'>{{ event.title }}</a>
+        </h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="medium-4 large-4 columns">
+        <img src="{{event.image}}" />
+      </div>
+
+      <div class="medium-8 large-8 columns">
+        <p>{{event.summary}}</p>
+        <a class='button' href='{{event.url}}'>Read more</a>
+      </div>
+    </div>
+  {% endfor%}
+
+</div>
