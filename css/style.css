@@ -293,7 +293,6 @@ h3.bullet {
 }
 .milestone strong {
   font-size: 72px;
-  font-family: "PT sans";
   display: block;
 }
 
@@ -444,7 +443,6 @@ textarea {
 }
 #comments-form label {
   font-size: 1rem;
-  font-family: "PT sans";
   margin-bottom: 5px;
 }
 
@@ -615,7 +613,6 @@ ul.gallery li a h3 {
 }
 ul.gallery li a p {
   color: #dddddd;
-  font-family: "droid serif", georgia;
   font-size: 0.875rem;
   font-style: italic;
 }
@@ -905,7 +902,7 @@ ul.info i:hover {
 }
 
 .features, .features-checklist {
-  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .features .columns {
@@ -919,7 +916,7 @@ ul.info i:hover {
   font-weight: normal;
   font-size: 14px;
   letter-spacing: 1.2px;
-  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .features-checklist i {
@@ -954,7 +951,7 @@ h3.sub-header-black {
 
 .user-benefits {
   /*letter-spacing: 1.2px;*/
-  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 22px;
 }
@@ -1011,7 +1008,7 @@ h3.sub-header-black {
 }
 
 .bullet-indent {
-  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #555;
   text-transform: none;
   font-weight: normal;
