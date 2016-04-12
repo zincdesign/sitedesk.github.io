@@ -11,8 +11,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   color: white;
 }
 
-h1, h2, h3, h4 {
+h1 {
   text-transform: uppercase;
+}
+
+h1, h2, h3, h4 { 
   letter-spacing: 2px;
 }
 
@@ -714,7 +717,7 @@ ul.info i:hover {
   width: 75%;
 }
 .post .content.small-images img {
-  height: 250px;
+  height: 220px;
   width: auto;
 }
 .post .info h3 {

@@ -17,8 +17,6 @@ layout: default
             {% else %}
               <a href="/news/page{{ paginator.next_page }}" class="older">Older Entries</a>
             {% endif %}
-          {% else %}
-            <span class="older">Older Entries</span>
           {% endif %}
           {% if paginator.previous_page %}
             {% if paginator.previous_page == 1 %}
@@ -26,8 +24,6 @@ layout: default
             {% else %}
               <a href="/news/page{{ paginator.previous_page }}" class="newer">Newer Entries</a>
             {% endif %}
-          {% else %}
-            <span class="newer">Newer Entries</span>
           {% endif %}
         </div>
       {% endif %}
