@@ -1,6 +1,6 @@
 - name: Product
   path: index.html
-  section_id: home
+  section_id: product
   children:
     - name: Features
       path: features.html
@@ -29,7 +29,7 @@
   section_id: company
 - name: Events
   path: events/index.html
-  section_id: news  
+  section_id: events  
 - name: News
   path: news/index.html
   section_id: news
