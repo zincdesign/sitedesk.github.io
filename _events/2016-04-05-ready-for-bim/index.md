@@ -1,11 +1,12 @@
 ---
 layout: image-left
-title: Ready for BIM or hoping to get by?
 heading: Ready for BIM or hoping to get by?
 summary: The BIM Level 2 deadline is upon us. It will influence all types of construction project in future. Those who work with public sector clients will face questions they may not be fully prepared to answer about BIM – starting in April this year.
-image: 2016-04-ready-for-bim/seminar.png
+banner: 
+  src: 2016-04-05-ready-for-bim/seminar-wide.png
+  alt: Feeling calm about BIM yet?
 images:
-  - src: seminar.png
+  - src: seminar-tall.png
     alt: Feeling calm about BIM yet?
 ---
 
@@ -18,6 +19,8 @@ Those who work with public sector clients will face questions they may not be fu
 - *Or are you simply hoping to squeak by?*
 
 **This is a free seminar aimed at contractors and sub-contractors in the construction industry who work on public and private sector projects that may now require the use of BIM.**
+
+<!--more-->
 
 ### Why attend?
 
@@ -36,7 +39,7 @@ We've a packed agenda of speakers from Sitedesk and BIM experts. You can:
   </a>
 </p>
 
-### Guest Speaker: David Emery &#8211; BIM Expert, Virtechs
+### Guest Speaker: David Emery - BIM Expert, Virtechs
 ![David Emery - Speaker](david-emery.jpg)
 
 David Emery is an Architectural Technologist and BIM expert. Over the past nine years he has worked as a BIM Manager and advisor on numerous projects, including full ‘5D’ projects. He is a popular speaker and has delivered talks, seminars and workshops to SMEs in London and the Midlands and to the staff of national construction companies.

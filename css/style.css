@@ -714,7 +714,8 @@ ul.info i:hover {
   width: 75%;
 }
 .post .content.small-images img {
-  width: 300px;
+  height: 250px;
+  width: auto;
 }
 .post .info h3 {
   font-size: 24px;
