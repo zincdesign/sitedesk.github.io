@@ -188,7 +188,7 @@ h3.bullet {
 
 /*header */
 .top-bar .name h1 img {
-  width: 200px;
+  width: 300px;
 }
 .top-bar .name h1 a {
   display: inline;
@@ -558,24 +558,7 @@ textarea {
   line-height: 0;
 }
 
-@media only screen and (max-width: 780px) {
-  .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
-    padding: 12px 16px;
-    line-height: 26px;
-  }
-}
 
-@media only screen and (max-width: 480px) {
-  .orbit-caption h2, .orbit-caption p {
-    font-size: 18px;
-    position: relative;
-    /*top: -50px;*/
-  }
-
-  .orbit-caption .row {
-    margin-left: 0px !important;
-  }
-}
 
 .testimonials {
   padding-bottom: 0px !important;
@@ -868,15 +851,7 @@ ul.info i:hover {
   display: none;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 800px) {
-  .slider-container {
-    text-align: center;
-  }
 
-  .orbit-caption .row {
-    margin-left: 0;
-  }
-}
 
 /* --- Styles used for home page experiment B --- */
 
@@ -1152,6 +1127,13 @@ h3.sub-header-black {
   color: #333;
 }
 
+/* Screen size fixes. Note modern phones with high dpi/fake pixel counts not handled yet
+Important break points:
+- iPad 770px width
+- average: 1200px width
+- small laptop, cheap screen: 1204px
+*/
+
 @media only screen and (min-width: 0px) and (max-width: 480px) {
   .orbit-caption h2 {
     font-size: 1rem;
@@ -1204,5 +1186,38 @@ h3.sub-header-black {
 @media only screen and (min-width: 800px) {
   .orbit-caption {
     padding-top: 4em !important;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
+    padding: 12px 16px;
+    line-height: 26px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .orbit-caption h2, .orbit-caption p {
+    font-size: 18px;
+    position: relative;
+  }
+
+  .orbit-caption .row {
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+  .slider-container {
+    text-align: center;
+  }
+
+  .orbit-caption .row {
+    margin-left: 0;
+  }
+  
+  /* Shrink logo */
+  .top-bar .name h1 img {
+    width: 200px;
   }
 }
