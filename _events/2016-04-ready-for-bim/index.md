@@ -7,14 +7,12 @@ image: 2016-04-ready-for-bim/seminar.png
 images:
   - src: seminar.png
     alt: Feeling calm about BIM yet?
-  - src: david-emery.jpg
-    alt: David Emery - Speaker
-
 ---
 
 **The BIM Level 2 deadline is upon us. It will influence all types of construction project in future.**
 
 Those who work with public sector clients will face questions they may not be fully prepared to answer about BIM - starting in April this year
+
 - *Do you know what Supplier Assessment questions YOU will soon face?*
 - *Can you demonstrate your capability to deliver BIM projects?*
 - *Or are you simply hoping to squeak by?*
@@ -39,7 +37,7 @@ We've a packed agenda of speakers from Sitedesk and BIM experts. You can:
 </p>
 
 ### Guest Speaker: David Emery &#8211; BIM Expert, Virtechs
-<!-- ![David Emery - Speaker](http://sitedesk.com/wp-content/uploads/2016/03/DavidEmerySpeaker.jpg) -->
+![David Emery - Speaker](david-emery.jpg)
 
 David Emery is an Architectural Technologist and BIM expert. Over the past nine years he has worked as a BIM Manager and advisor on numerous projects, including full ‘5D’ projects. He is a popular speaker and has delivered talks, seminars and workshops to SMEs in London and the Midlands and to the staff of national construction companies.
 
