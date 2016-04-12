@@ -1,19 +1,20 @@
-<div class="slider-background">
-  <div class="slider-container">
-    <ul data-orbit data-options="animation:slide; timer_speed:3000; pause_on_hover:false; navigation_arrows:true; bullets:false; slide_number:false; circular:true; ">
-      {% for slide in site.data.slides %}
-        <li>
-          <img id="slide-normal-image" src="{{site.url}}/images/{{slide.image}}" class="slider-image" />
-
-          <div class='orbit-caption caption-{{ slide.desc_location }}'>
-            <div class='row'>
-              <div class='large-12 columns right'>
-                {{ slide.desc }}
-              </div>
+<div class="slider">
+    <ul>
+        {% for slide in site.data.slider %}
+        <li class="slide {% unless forloop.first %}hidden{% endunless %}" style="background-image: url('/images/slider/{{slide.image}}')" >
+            <div class="slide-content">
+                <div class="slide-left">
+                    <h1>{{slide.hook}}</h1>
+                    <p>{{slide.pitch}}</p>
+                    <a class='button white' href="/request-demo.html">Request Demo</a>
+                </div>
             </div>
-          </div>
         </li>
-      {% endfor %}
+        {% endfor %}
     </ul>
-  </div>
+
+    <div class="slider-nav">
+        <a class="slider-back" href="javascript:void(0)"></a>
+        <a class="slider-next" href="javascript:void(0)"></a>
+    </div>
 </div>

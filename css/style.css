@@ -25,11 +25,6 @@ a:hover, a:focus {
 }
 
 /* General */
-
-h1 {
-  text-transform: uppercase;
-}
-
 h1, h2, h3, h4 { 
   letter-spacing: 2px;
 }
@@ -221,7 +216,6 @@ h3.bullet {
   margin-bottom: 0;
 }
 .special-title p {
-  font-family: "droid serif", georgia;
   font-size: 1.125rem;
   color: #666666;
   letter-spacing: 1px;
@@ -309,7 +303,6 @@ h3.bullet {
 /*call-to-action */
 .call-to-action p {
   font-size: 1.375rem;
-  font-family: "droid serif", georgia;
 }
 
 /*milestone */
@@ -334,7 +327,6 @@ h3.bullet {
   list-style: none;
 }
 .bars h4 {
-  font-family: "droid serif", georgia;
   font-weight: normal;
   text-transform: capitalize;
   margin-bottom: 5px;
@@ -363,7 +355,6 @@ h3.bullet {
   margin-bottom: 0;
 }
 .member p.position {
-  font-family: "droid serif", georgia;
   font-size: 14px;
   color: #666666;
   letter-spacing: 1px;
@@ -841,23 +832,12 @@ ul.info i:hover {
   font-size: 0.875rem;
   color: #999999;
 }
-.slider-container {
-  width: 100%;
-  max-width: 70rem;
-  margin: 0 auto;
-}
 
-#slide-small-image {
-  display: none;
-}
 
 
 
 /* --- Styles used for home page experiment B --- */
 
-.slider-container {
-  text-align: center;
-}
 
 .orbit-caption .row {
   margin-left: 0;
@@ -870,18 +850,8 @@ ul.info i:hover {
   font-size: 2rem;
 }
 
-.slider-background {
-  background: #7f7f7f;
-}
 
-.slider-container {
-  max-width: 100rem;
-}
 
-.slider-container .orbit-slides-container {
-  height: 340px !important;
-  overflow: hidden;
-}
 
 .orbit-container .orbit-slides-container img {
   height: auto;
@@ -1127,6 +1097,127 @@ h3.sub-header-black {
   color: #333;
 }
 
+/* Slider */
+.slider {
+  height: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 400px;
+}
+
+.slider li {
+  height: 400px;
+  background-image: url('/images/slider/1.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 2000px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  list-style: none;
+}
+
+.slider .slide-content {
+  max-width: 960px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.slider .slide-left {
+  padding: 64px 16px;
+  width: 50%;
+}
+
+.slider h1 {
+  color: white;
+  margin: 0 0 12px 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 1.1;
+  max-width: 80%;
+}
+
+.slider p {
+  color: #3f3e3e;
+  margin: 0 0 12px 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 1.1;
+}
+
+.slider a.slide-button {
+  background: rgba(62, 62, 62, 0.5);
+  color: white;
+  display: inline-block;
+  line-height: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 8px;
+  border: solid 1px #3f3e3e;
+  border-radius: 4px;
+}
+
+.slider .slider-nav {
+  height: 60px;
+  position: absolute;
+  top: 170px;
+  left: 0;
+  width: 100%;
+}
+
+.slider .slider-back,
+.slider .slider-next {
+  width: 40px;
+  height: 60px;
+  background-color: rgba(62, 62, 62, 0.25);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slider .slider-back {
+  left: 0;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABcUlEQVRYR+3VO07EMBAG4BlHOQIttIjDRHZOQQE0hN0souO1sDUFh0jGDQhOgmiho4IaEiNHirRFHuNszFKs64n/L2NPgrDmhWvOhw1gjA6glDJFxOOiKL7CMDzMsuyRe7SrAjCO47kxZrIU+IOIMs/zBw5iFUBTeJ35SkS7PgGolLoBgJOmEGPMm9Z6xxegM9yGIuJ+nuf3PgA2/BYAko7NJ0S04IRXWG6hrR073AVgR21hR22sN6/34XTAWzinA17DewFSyjNEPB+77cv7dR5BFEUfQRBstQCcbnvbS/xvgFIqBYDrNr0xZqq1tt+FwatvCuzsW8DUF6IPUF3UPgQApERk/w3OiwOoEVc2qCNhEIIL4CJmRDR3aYMLoELEcXxpjJl1hDghXAFcxAER3XE6MQRQH8cFAJy2hLwT0bZPQB/ihYj2fAMaEWVZfgshIiJ6+gtAjUjKskyEEJ9CiKMsy5454dXD3EJfdRvA2jvwCzEcmiFBqwvJAAAAAElFTkSuQmCC');
+}
+
+.slider .slider-next {
+  right: 0;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABV0lEQVRYR+3WS0rFMBQG4P+kOtIViAMduBrRJtmFE5048QXKvQqKwtWByzih23GkiMtIIwULIm1vXqUObubt/+WcJBzCxIsmzscKEFQBrfWhc+4ZwCaAe2PMY2oLvQFlWR4IIRjAWhtKRHNmvkpBeAOklG9EtPc3LBXhDSjL8lMIsd212xSEN0BKeUREr33ljkV4A5pgKeUZEd3lRAQBxkAEAxqE1vrcOXeboxJRgJyIaECDUEpdAJinVCIJ4Ik4ZeanXmTKK9Z+K6W8JKJZ17/quv6oqmpnMgCAd2PM7miAod3/hJ4YY15GASwLJ6IbZr4eanP0IcwR3sCiALnCowA5w4MBucODAEqpYwDNONa5fA5c5yzh+xAppb4AbPUMJEtPe/I1HBjJosODWqC13rfWGiHEerub2LL/rkbQNWwQABbW2o2iKB6YeeHbwuQWpAatAP+2At+qhYohqn04ogAAAABJRU5ErkJggg==');
+}
+
+@media (max-width: 960px) {
+  .slider .slide {
+    background-position: -500px 0;
+  }
+
+  .slider .slide-left {
+    width: 450px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider .slide {
+    background-position: 0 0;
+  }
+
+  .slider .slide-left {
+    padding: 32px 16px;
+    width: unset;
+  }
+}
+
+/* Slider end */
+
 /* Screen size fixes. Note modern phones with high dpi/fake pixel counts not handled yet
 Important break points:
 - iPad 770px width
@@ -1139,31 +1230,26 @@ Important break points:
     font-size: 1rem;
   }
 
-  .slider-container .orbit-slides-container {
-    height: 180px !important;
-    max-height: 180px !important;
-  }
 
-  .slider-container .slide {
-    min-height: 180px;
-  }
 
   p.quote {
     padding: 0;
     line-height: 1.8;
   }
+  
+  .slider h1 {font-size: 32px; }
+  .slider p {font-size: 20px; }
+  .slider .slider-nav { display: none; }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 800px) {
-  .slider-container .orbit-slides-container {
-    height: 250px !important;
-    max-height: 250px !important;
-  }
-
-  .slider-container .slide {
-    min-height: 250px;
-  }
+@media only screen and (min-width: 2000px) {
+  .slider li { background-size: cover; }
 }
+@media only screen and (max-width: 1000px) {
+  .slider h1 {font-size: 35px; }
+}
+
+
 
 @media only screen and (min-width: 0px) and (max-width: 640px) {
   .user-benefits .medium-4 {
@@ -1176,12 +1262,6 @@ Important break points:
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 800px) {
-  .orbit-slides-container li img.slider-image {
-    width: 750px !important;
-    max-width: none !important;
-  }
-}
 
 @media only screen and (min-width: 800px) {
   .orbit-caption {
@@ -1208,9 +1288,7 @@ Important break points:
 }
 
 @media only screen and (min-width: 0px) and (max-width: 800px) {
-  .slider-container {
-    text-align: center;
-  }
+
 
   .orbit-caption .row {
     margin-left: 0;
