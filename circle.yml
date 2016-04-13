@@ -11,7 +11,7 @@ test:
     - echo TODO internal / external link checker
 deployment:
   staging:
-    tag: staging
+    tag: /staging/
     commands:
       - aws s3 sync ./_site/ s3://www.sitedesk.xyz/ --region eu-central-1 --exclude app/* --exclude assets/*
   prod:
