@@ -11,10 +11,10 @@ test:
     - echo TODO internal / external link checker
 deployment:
   staging:
-    tag: /staging/
+    tag: /staging.*/
     commands:
       - aws s3 sync ./_site/ s3://www.sitedesk.xyz/ --region eu-central-1 --exclude app/* --exclude assets/*
   prod:
-    tag: /v[0-9]/
+    tag: /v[0-9].*/
     commands:
       - echo aws s3 sync ./_site/ s3://www.sitedesksoftware.com/ --region eu-central-1 --exclude app/* --exclude assets/*
