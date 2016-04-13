@@ -8,6 +8,7 @@ window.addEventListener('load', function() {
     var slides = [].slice.call(slider.querySelectorAll('.slide'), 0);
     var backButton = slider.querySelector('.slider-back');
     var nextButton = slider.querySelector('.slider-next');
+    var goToButtons = [].slice.call(slider.querySelectorAll('.slider-jump-button'), 0);
 
     var currentSlide = slides[0];
     var animating = false;
@@ -119,6 +120,20 @@ window.addEventListener('load', function() {
       });
     };
 
+    var goToIndex = function(index) {
+      var slide = slides[index];
+
+      if (slide === currentSlide) return;
+
+      var currentSlideIndex = slides.indexOf(currentSlide);
+
+      var rev = currentSlideIndex > index;
+
+      transition(currentSlide, slide, rev, function() {
+        currentSlide = slide;
+      });
+    };
+
     var startAuto = function() {
       autoInterval = setInterval(function() {
         goToNext();
@@ -135,6 +150,13 @@ window.addEventListener('load', function() {
 
     backButton.addEventListener('click', goToBack);
     nextButton.addEventListener('click', goToNext);
+
+    goToButtons.forEach(function(button) {
+      button.addEventListener('click', function(e) {
+        var index = this.attributes['data-index'].value;
+        goToIndex(parseInt(index, 10));
+      });
+    });
 
     startAuto();
   });
