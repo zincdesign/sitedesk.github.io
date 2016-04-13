@@ -14,7 +14,9 @@ deployment:
     tag: /staging.*/
     commands:
       - aws s3 sync ./_site/ s3://www.sitedesk.xyz/ --region eu-central-1 --exclude app/* --exclude assets/*
+      - aws s3 website s3://www.sitedesk.xyz/ --region eu-central-1 --index-document index.html --error-document 404.html
   prod:
     tag: /v[0-9].*/
     commands:
       - echo aws s3 sync ./_site/ s3://www.sitedesksoftware.com/ --region eu-central-1 --exclude app/* --exclude assets/*
+      - echo s3 website s3://www.sitedesksoftware.com/ --region eu-central-1 --index-document index.html --error-document 404.html
