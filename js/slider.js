@@ -6,11 +6,9 @@ window.addEventListener('load', function() {
     var ANIMATION = 1000;
 
     var slides = [].slice.call(slider.querySelectorAll('.slide'), 0);
-    var backButton = slider.querySelector('.slider-back');
-    var nextButton = slider.querySelector('.slider-next');
     var goToButtons = [].slice.call(slider.querySelectorAll('.slider-jump-button'), 0);
 
-    var currentSlide = slides[0];
+    var currentIndex = 0;
     var animating = false;
     var autoInterval = null;
 
@@ -87,53 +85,35 @@ window.addEventListener('load', function() {
         done();
       });
     };
-
-    var getNextSlide = function() {
-      var index = slides.indexOf(currentSlide);
-
-      return slides[(index + 1) % slides.length];
-    };
-
-    var getPrevSlide = function() {
-      var index = slides.indexOf(currentSlide);
-
-      var prevIndex = (index - 1);
-
-      if (prevIndex < 0) prevIndex = slides.length + prevIndex;
-
-      return slides[prevIndex];
-    };
-
-    var goToNext = function() {
-      var nextSlide = getNextSlide();
-
-      transition(currentSlide, nextSlide, false, function() {
-        currentSlide = nextSlide;
-      });
-    };
-
-    var goToBack = function() {
-      var prevSlide = getPrevSlide();
-
-      transition(currentSlide, prevSlide, true, function() {
-        currentSlide = prevSlide;
-      });
-    };
+    
+    var highlightJumpButton = function(index) {
+        goToButtons.forEach(function(btn) {
+          btn.className = btn.className.replace(/ current/g, '');
+        });
+        goToButtons[index].className += ' current';
+    }
 
     var goToIndex = function(index) {
-      var slide = slides[index];
+      if (index === currentIndex) return;
 
-      if (slide === currentSlide) return;
-
-      var currentSlideIndex = slides.indexOf(currentSlide);
-
-      var rev = currentSlideIndex > index;
-
-      transition(currentSlide, slide, rev, function() {
-        currentSlide = slide;
+      var rev = currentIndex > index;
+      highlightJumpButton(index);
+      
+      transition(slides[currentIndex], slides[index], rev, function() {
+        currentIndex = index;
       });
     };
-
+    
+ 
+    var goToNext = function() {
+      var index = (currentIndex + 1) % slides.length;
+      highlightJumpButton(index);
+      
+      transition(slides[currentIndex], slides[index], false /* always animate forward*/, function() {
+        currentIndex = index;
+      });
+    };
+    
     var startAuto = function() {
       autoInterval = setInterval(function() {
         goToNext();
@@ -145,16 +125,14 @@ window.addEventListener('load', function() {
       autoInterval = null;
     };
 
-    slider.addEventListener('mouseover', stopAuto);
-    slider.addEventListener('mouseout', startAuto);
-
-    backButton.addEventListener('click', goToBack);
-    nextButton.addEventListener('click', goToNext);
+    //slider.addEventListener('mouseover', stopAuto);
+    //slider.addEventListener('mouseout', startAuto);
 
     goToButtons.forEach(function(button) {
       button.addEventListener('click', function(e) {
         var index = this.attributes['data-index'].value;
         goToIndex(parseInt(index, 10));
+        stopAuto();
       });
     });
 

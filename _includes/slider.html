@@ -13,14 +13,11 @@
         {% endfor %}
     </ul>
 
-    <div class="slider-nav">
-        <a class="slider-back" href="javascript:void(0)"></a>
-        <a class="slider-next" href="javascript:void(0)"></a>
-    </div>
-
     <div class="slider-jump-buttons">
         <div class="slider-jump-buttons-inner">
-            {% for slide in site.data.slider %}<a class="slider-jump-button" data-index="{{forloop.index | plus:'-1'}}" href="javascript:void(0)"></a>{% endfor %}
+            {% for slide in site.data.slider %}
+              <a class="slider-jump-button {% if forloop.first %}current{% endif %}" data-index="{{forloop.index0}}" href="javascript:void(0)"></a>
+            {% endfor %}
         </div>
     </div>
 </div>
