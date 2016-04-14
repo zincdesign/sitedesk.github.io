@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Contact
-section_id: contact
+title: not-found
 ---
 <style>
   div#frame {
@@ -65,7 +64,7 @@ section_id: contact
   <div id="frame">
     <img>
   </div>
-  <h1>Whoops!</h1>
+  <h1>Sorry!</h1>
   <p>Something has gone wrong, please click <a href="/">here</a> to return to Sitedesk</p>
 
   <p>Technical suport have been notified of this problem.</p>
@@ -73,17 +72,11 @@ section_id: contact
 </section>
 
 <script>
-  var fails = [
-    'http://thumb7.shutterstock.com/display_pic_with_logo/1520945/257915915/stock-vector-crane-with-wrecking-ball-destroying-a-building-structure-257915915.jpg',
-    'http://i.istockimg.com/file_thumbview_approve/87044859/6/stock-illustration-87044859-planning-risk-and-strategy-in-business.jpg',
-    'http://news.nster.com/images/uploaded/00/00/49/4990_700x.jpg'
-  ];
-
   function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
   }
 
-  var choice = fails[getRandomInt(0, fails.length)];
+  var choice = '/images/404/' + getRandomInt(1, 10) + '.jpg';
 
   document.querySelector('section img').src = choice;
 </script>
