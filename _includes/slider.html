@@ -1,7 +1,7 @@
 <div class="slider">
     <ul>
         {% for slide in site.data.slider %}
-        <li class="slide {% unless forloop.first %}hidden{% endunless %}" style="background-image: url('/images/slider/{{slide.image}}')" >
+        <li class="slide {% unless forloop.first %}transparent{% endunless %}" style="background-image: url('/images/slider/{{slide.image}}')" >
             <div class="slide-content">
                 <div class="slide-left">
                     <h1>{{slide.hook}}</h1>

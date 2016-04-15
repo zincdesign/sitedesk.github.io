@@ -1130,6 +1130,15 @@ h3.sub-header-black {
   top: 0;
   width: 100%;
   list-style: none;
+  
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.slider li.transparent {
+opacity:0;
 }
 
 .slider .slide-content {
