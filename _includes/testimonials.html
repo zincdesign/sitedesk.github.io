@@ -8,22 +8,31 @@
   <div class='row'>
     <div class='special-title'>
       <i class='icon-quote light'></i>
-      <h2 class='light'>What our clients say</h2>
     </div>
-    <div class='two spacing'></div>
   </div>
   <div class='row'>
-    <div class='small-10 small-centered columns'>
-      <ul data-orbit=''>
+    <div class='slider'>
+      <ul>
         {% for t in site.data.testimonials %}
-          <li>
+          <li class="slide {% unless forloop.first %}transparent{% endunless %}">
             <p class='quote'>"{{t.quote}}"</p>
             <p class='testimonial-image'><img src="{{site.url}}/images/{{t.image}}" /></p>
-            <p class='author'>{{t.author}}</p>
+            <p class='author'><b>{{t.author}}</b></p>
             <div class='two spacing'></div>
           </li>
         {% endfor %}
       </ul>
+      
+      {% if site.data.testimonials.size > 1 %}
+      <div class="slider-jump-buttons">
+        <div class="slider-jump-buttons-inner">
+            {% for slide in site.data.testimonials %}
+              <a class="slider-jump-button {% if forloop.first %}current{% endif %}" data-index="{{forloop.index0}}" href="javascript:void(0)"></a>
+            {% endfor %}
+        </div>
+     </div>
+     {% endif %}
+      
     </div>
     <div class='spacing'></div>
   </div>

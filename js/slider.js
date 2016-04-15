@@ -17,10 +17,11 @@ window.addEventListener('load', function() {
     }
     
     var highlightJumpButton = function(index) {
-        goToButtons.forEach(function(btn) {
-          btn.className = btn.className.replace(/ current/g, '');
+        goToButtons.forEach(function(el, i) {
+          el.className = el.className.replace(/ current/g, '');
+          if(i === index)
+            el.className += ' current';
         });
-        goToButtons[index].className += ' current';
     }
 
     var goToIndex = function(index) {

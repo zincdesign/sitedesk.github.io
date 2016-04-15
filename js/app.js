@@ -5,9 +5,6 @@ $(document).foundation();
 
 (function($) {
   $(document).ready(function() {
-    $(document).foundation('orbit', {
-        timer_speed: 100,
-        animation_time: 100
-    });
+    $(document).foundation();
   });
 })(jQuery);
