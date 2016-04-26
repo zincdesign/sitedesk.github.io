@@ -497,7 +497,6 @@ textarea {
 p.quote {
   border: 1px solid rgba(255, 255, 255, 0.4);
   padding: 20px 50px;
-  font-family: "droid serif", georgia;
   font-style: italic;
   font-size: 18px;
   margin: 20px;
@@ -811,9 +810,6 @@ ul.info i:hover {
   padding-top: 0;
 }
 
-.features, .features-checklist {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 .features .columns {
   line-height: 23px;
@@ -826,7 +822,6 @@ ul.info i:hover {
   font-weight: normal;
   font-size: 14px;
   letter-spacing: 1.2px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .features-checklist i {
@@ -860,8 +855,6 @@ h3.sub-header-black {
 }
 
 .user-benefits {
-  /*letter-spacing: 1.2px;*/
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 22px;
 }
@@ -918,7 +911,6 @@ h3.sub-header-black {
 }
 
 .bullet-indent {
-  font-family: Arial, Helvetica, sans-serif;
   color: #555;
   text-transform: none;
   font-weight: normal;
@@ -1103,7 +1095,6 @@ h3.sub-header-black {
 
 /* Slider */
 .slider {
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0 auto;
   position: relative;
 }
@@ -1216,4 +1207,33 @@ Important break points:
   .top-bar .name h1 img {
     width: 200px;
   }
+}
+
+/* Custom font */
+@font-face {
+  font-family: 'AvenirLight';
+  src: url('/fonts/avenir/2EC11C_0_0.eot'); 
+  src: url('/fonts/avenir/2EC11C_0_0.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/avenir/2EC11C_0_0.woff2') format('woff2'),
+       url('/fonts/avenir/2EC11C_0_0.woff') format('woff'),
+       url('/fonts/avenir/2EC11C_0_0.ttf')format('truetype') 
+}
+
+@font-face {
+  font-family: 'AvenirBlack';
+  src: url('/fonts/avenir/2EC11C_1_0.eot'); 
+  src: url('/fonts/avenir/2EC11C_1_0.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/avenir/2EC11C_1_0.woff2') format('woff2'),
+       url('/fonts/avenir/2EC11C_1_0.woff') format('woff'),
+       url('/fonts/avenir/2EC11C_1_0.ttf') format('truetype')
+}
+
+body {
+  font-family: "AvenirLight",  Arial, Helvetica, Sans-Serif;
+}
+.top-bar-section ul li > a {
+  font-family: "AvenirLight",  Arial, Helvetica, Sans-Serif;
+}
+.main-slider p { 
+  color: #222222; /* blurb hard to read otherwise */
 }
