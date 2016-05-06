@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  Transform FM Health and Safety Effectiveness with Digital
-date:   2015-12-08 12:00:00 +0000
 author: Sitedesk
 ---
 

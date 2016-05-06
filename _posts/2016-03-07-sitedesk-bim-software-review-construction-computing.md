@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  BIM software review – top marks for Sitedesk
-date:   2016-03-07
 author: Sitedesk
 ---
 

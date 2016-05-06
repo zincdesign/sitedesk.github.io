@@ -1,13 +1,14 @@
 ---
 layout: image-left
 heading: "Compliance and confidence Webinar: How to Activate the Benefits of BIM"
-summary: BIM is an active reality for contractors in the public sector space – and both a growing challenge and opportunity for those who work in the private sector too.
+eventdate: 2016-05-24
 banner: 
-  src: 2016-05-24-compliance-and-confidence/webinar-wide.png
+  src: 2016-05-06-compliance-and-confidence/webinar-wide.png
   alt: Save money and protect your margins with BIM
 images:
   - src: webinar-sidebar.png
     alt: Save money and protect your margins with BIM?
+    href: http://www.eventbrite.co.uk/e/bim-compliance-confidence-how-to-activate-the-benefits-of-bim-tickets-25162204832?ref=ebtnebregn
 ---
 
 BIM is an active reality for contractors in the public sector space – and both a growing challenge and opportunity for those who work in the private sector too. 
@@ -21,6 +22,7 @@ Join Sitedesk for a lively UK BIM webinar presentation and:
 <!--more-->
 
 Join Sitedesk’s Director of BIM, Rob Umphray and Chairman, Michael McCullen, to discuss how construction contractors can transition from the theory to reality of BIM in daily business. 
+
 <a href="http://www.eventbrite.co.uk/e/bim-compliance-confidence-how-to-activate-the-benefits-of-bim-tickets-25162204832?ref=ebtnebregn" target="_blank"><img src="https://www.eventbrite.co.uk/custombutton?eid=25162204832" alt="Eventbrite - BIM Compliance &amp; confidence: How to Activate the Benefits of BIM" /></a>
 
 

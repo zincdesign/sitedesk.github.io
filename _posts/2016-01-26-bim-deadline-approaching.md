@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  BIM deadline approaching. Listen up, 2016 is CrunchTime
-date:   2016-01-26 12:00:00 +0000
 author: Sitedesk
 ---
 

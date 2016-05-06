@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  Why Building Engineers have much to contribute to BIM
-date:   2015-12-03 12:00:00 +0000
 author: Sitedesk
 ---
 

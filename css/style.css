@@ -684,9 +684,7 @@ ul.info i:hover {
 .post .info, .post .content {
   margin-left: 110px;
 }
-.post .content img {
-  width: 75%;
-}
+
 .post .content.small-images img {
   height: 220px;
   width: auto;

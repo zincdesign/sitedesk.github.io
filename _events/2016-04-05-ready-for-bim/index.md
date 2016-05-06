@@ -1,7 +1,7 @@
 ---
 layout: image-left
 heading: Ready for BIM or hoping to get by?
-summary: The BIM Level 2 deadline is upon us. It will influence all types of construction project in future. Those who work with public sector clients will face questions they may not be fully prepared to answer about BIM – starting in April this year.
+eventdate: 2016-04-05
 banner: 
   src: 2016-04-05-ready-for-bim/seminar-wide.png
   alt: Feeling calm about BIM yet?

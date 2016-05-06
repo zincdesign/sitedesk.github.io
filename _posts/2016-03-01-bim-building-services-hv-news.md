@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  The impact of the BIM deadline on building services engineering
-date:   2016-03-01
 author: Sitedesk
 ---
 
