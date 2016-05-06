@@ -3,6 +3,7 @@ excerpt_separator: <!--more-->
 paginate: 3
 paginate_path: "news/page:num"
 gems: [jekyll-paginate]
+permalink: pretty
 collections:
   case-studies:
     output: true

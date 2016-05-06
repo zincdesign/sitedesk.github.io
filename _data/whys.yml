@@ -1,20 +1,20 @@
 - title: PUBLIC SECTOR
   icon: flash
-  url: public-sector.html
+  url: public-sector
   desc:
     Government officers and department heads that initiate new developments are increasingly being asked to incorporate BIM into contracts. <span class="blue-text">More...</span>
 - title: CONTRACTOR &amp; ENGINEER
   icon: layout
-  url: contractors-engineers.html
+  url: contractors-engineers
   desc:
     Sitedesk enables you to create a unified environment for all the project information from all the contractors and stakeholders involved. <span class="blue-text">More...</span>
 - title: CONSULTANT &amp; ADVISOR
   icon: paper-plane
-  url: consultants-advisors.html
+  url: consultants-advisors
   desc:
     The information manager or consultant can mandate and manage best practices, monitor and audit compliance and set up the workflows. <span class="blue-text">More...</span>
 - title: OWNER, OPERATOR &amp; FM
   icon: chat
-  url: owner-operator.html
+  url: owner-operator
   desc:
     Key to successful portfolio management are minimising risks and keeping full lifespan costs under control. <span class="blue-text">More...</span>
