@@ -16,7 +16,7 @@ layout: page
 
 <div class='medium-4 large-4 columns icon-text'>
      <a href="http://www.eventbrite.co.uk/e/bim-compliance-confidence-how-to-activate-the-benefits-of-bim-tickets-25162204832?ref=ebtnebregn" target="_blank">
-       <img src="events/2016-05-24-compliance-and-confidence/webinar-sidebar.png" alt="Eventbrite - BIM Compliance &amp; confidence: How to Activate the Benefits of BIM" />
+       <img src="../events/2016-05-24-compliance-and-confidence/webinar-sidebar.png" alt="Eventbrite - BIM Compliance &amp; confidence: How to Activate the Benefits of BIM" />
      </a>
 </div>
 
@@ -50,7 +50,7 @@ layout: page
 
   <p>Next seminar coming in June 2016 - so watch this space.</p>
 
-  <strong>Previous events:</string>
+  <strong>Previous events:</strong>
   <div class='one spacing'></div>
 
   <h3> Ready for BIM or hoping to get by...? Edgbaston Stadium, 5th April - CLOSED</h3>
