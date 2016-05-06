@@ -3,10 +3,10 @@ layout: image-left
 heading: Ready for BIM or hoping to get by?
 eventdate: 2016-04-05
 banner: 
-  src: 2016-04-05-ready-for-bim/seminar-wide.png
+  src: /images/events/2016-04-seminar-wide.png
   alt: Feeling calm about BIM yet?
 images:
-  - src: seminar-tall.png
+  - src: /images/events/2016-04-seminar-tall.png
     alt: Feeling calm about BIM yet?
 ---
 
@@ -40,7 +40,7 @@ We've a packed agenda of speakers from Sitedesk and BIM experts. You can:
 </p>
 
 ### Guest Speaker: David Emery - BIM Expert, Virtechs
-![David Emery - Speaker](david-emery.jpg)
+![David Emery - Speaker](/images/events/david-emery.jpg)
 
 David Emery is an Architectural Technologist and BIM expert. Over the past nine years he has worked as a BIM Manager and advisor on numerous projects, including full ‘5D’ projects. He is a popular speaker and has delivered talks, seminars and workshops to SMEs in London and the Midlands and to the staff of national construction companies.
 

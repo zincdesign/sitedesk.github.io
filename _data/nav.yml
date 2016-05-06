@@ -1,38 +1,38 @@
 - name: Product
-  path: index.html
+  path: 
   section_id: product
   children:
     - name: Features
-      path: features.html
+      path: features
     - name: User Benefits
-      path: user-benefits.html
+      path: user-benefits
     - name: Independent Review
-      path: independent-review.html
+      path: independent-review
     - name: Fact Sheet
-      path: fact-sheet.html
+      path: fact-sheet
 - name: Customers
-  path: index.html
+  path: 
   section_id: services
   children:
     - name: Public Sector
-      path: public-sector.html
+      path: public-sector
     - name: Contractor &amp; Engineer
-      path: contractors-engineers.html
+      path: contractors-engineers
     - name: Consultant &amp; Advisor
-      path: consultants-advisors.html
+      path: consultants-advisors
     - name: Owner, Operator &amp FM
-      path: owner-operator.html
+      path: owner-operator
     - name: Case Studies
-      path: case-studies/index.html
+      path: case-studies
 - name: Company
-  path: company.html
+  path: company
   section_id: company
 - name: Events
-  path: events/index.html
-  section_id: events  
+  path: events
+  section_id: events
 - name: News
-  path: news/index.html
+  path: news
   section_id: news
 - name: Contact
-  path: contact.html
+  path: contact
   section_id: contact

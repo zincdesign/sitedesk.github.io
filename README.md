@@ -7,7 +7,7 @@ a new post from the template:
 - Name the file `[todays date in YYY-MM-DD format]-a-meaningfull-name-for-our-tree-frog-post.md`
 - Edit the title and date [metadata](https://jekyllrb.com/docs/frontmatter/) at the top of the file.
 - Add a thumbnail: [Upload](https://help.github.com/articles/adding-a-file-to-a-repository/) it into the `images/new` directory. Let's call ours `treefrog.png` and edit the link at the start of the post to `/images/news/treefrog.png`
-- Add the first paragraph which will apear in the [news posts page](https://sitedesk.xyz/news/index.html). Followed by `<!--more-->`
+- Add the first paragraph which will apear in the [news posts page](https://sitedesk.xyz/news). Followed by `<!--more-->`
 - Then add remainder of the article and hit save.
 
 For example:
@@ -35,7 +35,7 @@ Headings, images etc are added using [simple markup](https://guides.github.com/f
 
 #Adding a page
 
-To add a new page (say) detailing the amazing development team, we first need to create a file in the web location, for example: `sitedesk.xyz/team/index.html` by creating navigating to the right folder, above and clicking "New file". Add the basic [metadata](https://jekyllrb.com/docs/frontmatter/), and then your content.
+To add a new page (say) detailing the amazing development team, we first need to create a file in the web location, for example: `sitedesk.xyz/team/index` by creating navigating to the right folder, above and clicking "New file". Add the basic [metadata](https://jekyllrb.com/docs/frontmatter/), and then your content.
 
 For example:
 

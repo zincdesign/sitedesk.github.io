@@ -3,10 +3,10 @@ layout: image-left
 heading: "Compliance and confidence Webinar: How to Activate the Benefits of BIM"
 eventdate: 2016-05-24
 banner: 
-  src: 2016-05-06-compliance-and-confidence/webinar-wide.png
+  src: /images/events/2016-05-webinar-wide.png
   alt: Save money and protect your margins with BIM
 images:
-  - src: webinar-sidebar.png
+  - src: /images/events/2016-05-webinar-sidebar.png
     alt: Save money and protect your margins with BIM?
     href: http://www.eventbrite.co.uk/e/bim-compliance-confidence-how-to-activate-the-benefits-of-bim-tickets-25162204832?ref=ebtnebregn
 ---
