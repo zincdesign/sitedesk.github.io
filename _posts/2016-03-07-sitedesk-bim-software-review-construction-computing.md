@@ -2,8 +2,6 @@
 layout: post
 title:  BIM software review – top marks for Sitedesk
 author: Sitedesk
-permalinks:
-  - /independent-review
 ---
 
 ![]({{site.baseurl}}/images/news/construction-computing.jpg)
