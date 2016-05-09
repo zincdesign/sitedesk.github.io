@@ -4,7 +4,7 @@ title:  The impact of the BIM deadline on building services engineering
 author: Sitedesk
 ---
 
-![]({{site.url}}/images/news/industry-970147_1920.jpg)
+![]({{site.baseurl}}/images/news/industry-970147_1920.jpg)
 
 **Are you ready to answer the BIM questions you’ll get in April?**
 
@@ -20,4 +20,4 @@ He goes on to outline the types of questions that building services and construc
 
 With the April BIM deadline fast looming, there is still time to take action: “If you are not BIM-ready, now really is the time to act,” says Michael.
 
-Read the article [The Rise of Digital Engineering]({{site.url}}/static/news/the-rise-of-digital-engineering.pdf) in full. It explores further the essential steps to be BIM-ready and avoid missing out on all its benefits.
+Read the article [The Rise of Digital Engineering]({{site.baseurl}}/static/news/the-rise-of-digital-engineering.pdf) in full. It explores further the essential steps to be BIM-ready and avoid missing out on all its benefits.

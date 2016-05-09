@@ -4,7 +4,7 @@ title:  BIM deadline approaching. Listen up, 2016 is CrunchTime
 author: Sitedesk
 ---
 
-![]({{site.url}}/images/news/CrunchTimeMarketingImage.png)
+![]({{site.baseurl}}/images/news/CrunchTimeMarketingImage.png)
 
 **BIM deadline approaching: Listen up – 2016 is CrunchTime**
 

@@ -4,7 +4,7 @@ title:  Why Building Engineers have much to contribute to BIM
 author: Sitedesk
 ---
 
-![]({{site.url}}/images/news/BuildingEngineerBanner-variant.png)
+![]({{site.baseurl}}/images/news/BuildingEngineerBanner-variant.png)
 
 In a new article for the Chartered Association of Building Engineers our Chairman, Michael McCullen, explores how BIM will require project stakeholders for construction projects to be involved from day one. If not, the resulting digital assets delivered at handover, which are so vital for future operation and economical asset management, are unlikely to be fit for purpose.
 
@@ -14,4 +14,4 @@ The work of building engineers is particularly important, to help ensure that cr
 
 Maintaining a complete set of data will become more essential for BIM to work for everyone. Building Engineers will be amongst the most important contributors: “BIM is forcing a requirement for an asset database that does away with the un-sorted and un-catalogued mass of printed information of the past. This will provide owners and operators with sufficient information to maintain and operate their critical sub-systems.”
 
-Read the article [Why Building Engineers have much to contribute to BIM]({{site.url}}/static/news/Sitedesk-Building-Engineer-December-2015-clean-pdf.pdf) in full. It explores how data needs to be delivered and why it is essential that building engineers are part of the BIM information flow from the very start.
+Read the article [Why Building Engineers have much to contribute to BIM]({{site.baseurl}}/static/news/Sitedesk-Building-Engineer-December-2015-clean-pdf.pdf) in full. It explores how data needs to be delivered and why it is essential that building engineers are part of the BIM information flow from the very start.

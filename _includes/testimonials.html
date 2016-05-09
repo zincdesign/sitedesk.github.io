@@ -16,7 +16,7 @@
         {% for t in site.data.testimonials %}
           <li class="slide {% unless forloop.first %}transparent{% endunless %}">
             <p class='quote'>"{{t.quote}}"</p>
-            <p class='testimonial-image'><img src="{{site.url}}/images/{{t.image}}" /></p>
+            <p class='testimonial-image'><img src="{{site.baseurl}}/images/{{t.image}}" /></p>
             <p class='author'><b>{{t.author}}</b></p>
             <div class='two spacing'></div>
           </li>
