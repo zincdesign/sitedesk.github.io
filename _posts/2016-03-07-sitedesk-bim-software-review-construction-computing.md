@@ -4,7 +4,7 @@ title:  BIM software review – top marks for Sitedesk
 author: Sitedesk
 ---
 
-![]({{site.baseurl}}/images/news/construction-computing.jpg)
+![news image]({{site.baseurl}}/images/news/construction-computing.jpg)
 
 Construction Computing and CAD User have published a a new BIM software review featuring Sitedesk. Editor David Chadwick evaluates Sitedesk’s ability to create federated models for design, construction and operation. On hearing the potential of Sitedesk to increase contractor profit margins by up to 50%, he was keen to learn about its power for himself.
 

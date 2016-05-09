@@ -4,7 +4,7 @@ title:  Transform FM Health and Safety Effectiveness with Digital
 author: Sitedesk
 ---
 
-![]({{site.baseurl}}/images/news/BFMmainbanner1.png)
+![bfm-banner]({{site.baseurl}}/images/news/BFMmainbanner1.png)
 
 In this new article for Building & Facilities Management magazine, our Chairman Michael McCullen looks at how and why it is incumbent on employers to have robust health and safety policies backed up by a digital audit trail. Construction and FM firms have significant challenges in assuring the safety of not only their employees but also the public. The consequences of getting this wrong are potentially disastrous.
 

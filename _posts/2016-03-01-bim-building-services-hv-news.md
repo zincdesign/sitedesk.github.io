@@ -6,7 +6,7 @@ redirect_from:
   - /bim-building-services-hv-news/
 ---
 
-![]({{site.baseurl}}/images/news/industry-970147_1920.jpg)
+![news image]({{site.baseurl}}/images/news/industry-970147_1920.jpg)
 
 **Are you ready to answer the BIM questions you’ll get in April?**
 

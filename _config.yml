@@ -13,3 +13,6 @@ collections:
     output: true
   events:
     output: true
+exclude:
+  - circle.yml
+  - README.md

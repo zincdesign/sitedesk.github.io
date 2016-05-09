@@ -4,14 +4,14 @@ title:  Concrete industry BIM – components for success
 author: Sitedesk
 ---
 
-![]({{site.baseurl}}/images/news/Concrete-BIM-cover-April16.jpg)
+![news image]({{site.baseurl}}/images/news/Concrete-BIM-cover-April16.jpg)
 
-In this <a href="{{site.baseurl}}/static/news/concrete-april-2016.pdf">new article</a> in industry magazine, Concrete, Rob Umphray, our Director of BIM discusses the need for the supply sector to fully leverage the benefits of Building Information Modelling (BIM). With concrete being one of the most widely used construction materials, it is time to realise BIM’s potential to transform all its related workflows. It is time for concrete industry BIM to take a step forward. 
+In this <a href="{{site.baseurl}}/static/news/concrete-april-2016.pdf">new article</a> in industry magazine, Concrete, Rob Umphray, our Director of BIM discusses the need for the supply sector to fully leverage the benefits of Building Information Modelling (BIM). With concrete being one of the most widely used construction materials, it is time to realise BIM’s potential to transform all its related workflows. It is time for concrete industry BIM to take a step forward.
 
 <!--more-->
 
 
-BIM can bring major business opportunities – not only to precast manufacturers but also concrete suppliers. The data and specifications of either can be used to create BIM objects for planners and designers to access via BIM Libraries. 
+BIM can bring major business opportunities – not only to precast manufacturers but also concrete suppliers. The data and specifications of either can be used to create BIM objects for planners and designers to access via BIM Libraries.
 
 <h2>Ahead of the wave of concrete industry BIM</h2>
 

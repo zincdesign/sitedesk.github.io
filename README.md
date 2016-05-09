@@ -19,7 +19,7 @@ title:  You wont believe how BIM data improves the lives of Romanian tree frogs
 author: Sitedesk
 ---
 
-![]({{site.baseurl}}/images/news/treefrog.png)
+![alt text description]({{site.baseurl}}/images/news/treefrog.png)
 
 These cute little critters had a hard life bfore BIM came along. Forever worrying about how to keep drawings and documentation safe in a harsh environment of near constant rain, predators and auditors.
 

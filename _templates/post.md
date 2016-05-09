@@ -5,7 +5,7 @@ date:   2015-12-03 12:00:00 +0000
 author: Sitedesk
 ---
 
-![]({{site.baseurl}}/images/news/header-image-goes-here.png)
+![header image description]({{site.baseurl}}/images/news/header-image-goes-here.png)
 
 Preview paragraph
 

@@ -4,7 +4,7 @@ title:  Why Building Engineers have much to contribute to BIM
 author: Sitedesk
 ---
 
-![]({{site.baseurl}}/images/news/BuildingEngineerBanner-variant.png)
+![BuildingEngineerBanner-variant]({{site.baseurl}}/images/news/BuildingEngineerBanner-variant.png)
 
 In a new article for the Chartered Association of Building Engineers our Chairman, Michael McCullen, explores how BIM will require project stakeholders for construction projects to be involved from day one. If not, the resulting digital assets delivered at handover, which are so vital for future operation and economical asset management, are unlikely to be fit for purpose.
 

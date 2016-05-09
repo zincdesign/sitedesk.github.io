@@ -35,6 +35,6 @@ images:
 
 <p>
     <a href='/static/pdf/Rossall-CaseStudy-updated-Jan2016.pdf'>
-        <img src='/images/case-studies/wyre/RossallThumbnail.jpg' />
+        <img src='/images/case-studies/wyre/RossallThumbnail.jpg' alt="Rossall" />
     </a>
 </p>
