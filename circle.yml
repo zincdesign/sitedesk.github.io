@@ -3,12 +3,12 @@ machine:
     version: 2.0.0
 test:
   pre:
-    - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-redirect-from
+    - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-redirect-from html-proofer
     - jekyll build
   override:
     - if [ -e _site/app ]; then echo 'Fail - Cannot have any files or folders named app' && exit 1; fi
     - echo TODO check spelling
-    - echo TODO internal / external link checker
+    - htmlproofer ./_site
 deployment:
   staging:
     tag: /staging.*/
