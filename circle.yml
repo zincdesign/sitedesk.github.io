@@ -3,7 +3,7 @@ machine:
     version: 2.0.0
 test:
   pre:
-    - gem install jekyll jekyll-paginate jekyll-sitemap
+    - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-redirect-from
     - jekyll build
   override:
     - if [ -e _site/app ]; then echo 'Fail - Cannot have any files or folders named app' && exit 1; fi

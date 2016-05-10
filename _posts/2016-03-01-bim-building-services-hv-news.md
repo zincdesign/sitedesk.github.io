@@ -2,8 +2,8 @@
 layout: post
 title:  The impact of the BIM deadline on building services engineering
 author: Sitedesk
-permalinks:
-  - /bim-building-services-hv-news
+redirect_from:
+  - /bim-building-services-hv-news/
 ---
 
 ![]({{site.baseurl}}/images/news/industry-970147_1920.jpg)
