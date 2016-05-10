@@ -1,9 +1,11 @@
 machine:
   ruby:
     version: 2.0.0
+dependencies:
+  override:
+    - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-redirect-from html-proofer
 test:
   pre:
-    - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-redirect-from html-proofer
     - jekyll build
   override:
     - if [ -e _site/app ]; then echo 'Fail - Cannot have any files or folders named app' && exit 1; fi
