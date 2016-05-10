@@ -23,7 +23,7 @@ layout: page
 <div class='medium-8 large-8 columns'>
   <h2>BIM Webinars</h2>
   
-  <h3>Compliance and confidence: How to Activate the Benefits of BIM - 10am, Wednesday 24th May 2016</h3>
+  <h3>Compliance and confidence: How to Activate the Benefits of BIM - 10am, Wednesday 25th May 2016</h3>
   
   <p>BIM is an active reality for contractors in the public sector space – and both a growing challenge and opportunity for those who work in the private sector too.</p>
   <p>Join Sitedesk for a lively UK BIM webinar presentation and:</p>

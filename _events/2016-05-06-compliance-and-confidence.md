@@ -26,6 +26,6 @@ Join Sitedesk’s Director of BIM, Rob Umphray and Chairman, Michael McCullen, t
 <a href="http://www.eventbrite.co.uk/e/bim-compliance-confidence-how-to-activate-the-benefits-of-bim-tickets-25162204832?ref=ebtnebregn" target="_blank"><img src="https://www.eventbrite.co.uk/custombutton?eid=25162204832" alt="Eventbrite - BIM Compliance &amp; confidence: How to Activate the Benefits of BIM" /></a>
 
 
-**When:** 10am, Wednesday 24th May 
+**When:** 10am, Wednesday 25th May 
 
 **Where:** Webinar
