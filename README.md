@@ -16,7 +16,6 @@ For example:
 ---
 layout: post
 title:  You wont believe how BIM data improves the lives of Romanian tree frogs
-date:   2016-08-05 12:00:00 +0000
 author: Sitedesk
 ---
 
